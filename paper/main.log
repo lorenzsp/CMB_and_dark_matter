@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  18 DEC 2018 17:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  18 DEC 2018 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -467,7 +467,7 @@ Package pdftex.def Info: universe.jpg used on input line 23.
 rse.jpg>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  2127 strings out of 493033
- 27934 string characters out of 6134139
+ 27979 string characters out of 6134139
  88689 words of memory out of 5000000
  5649 multiletter control sequences out of 15000+600000
  7626 words of font info for 27 fonts, out of 8000000 for 9000
@@ -479,7 +479,7 @@ msfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti10.pfb>
-Output written on main.pdf (1 page, 90790 bytes).
+Output written on main.pdf (1 page, 90410 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream

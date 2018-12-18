@@ -2,45 +2,45 @@ This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: plain.bst
-Database file #1: references.bib
+Database file #1: dark_bib.bib
 You've used 1 entry,
             2118 wiz_defined-function locations,
-            502 strings with 4066 characters,
-and the built_in function-call counts, 237 in all, are:
-= -- 19
-> -- 7
+            504 strings with 4238 characters,
+and the built_in function-call counts, 271 in all, are:
+= -- 24
+> -- 13
 < -- 0
-+ -- 4
-- -- 2
-* -- 10
-:= -- 47
++ -- 5
+- -- 4
+* -- 20
+:= -- 55
 add.period$ -- 3
 call.type$ -- 1
-change.case$ -- 3
+change.case$ -- 5
 chr.to.int$ -- 0
 cite$ -- 1
-duplicate$ -- 12
-empty$ -- 23
-format.name$ -- 2
-if$ -- 47
+duplicate$ -- 10
+empty$ -- 19
+format.name$ -- 4
+if$ -- 51
 int.to.chr$ -- 0
 int.to.str$ -- 1
-missing$ -- 2
+missing$ -- 1
 newline$ -- 8
 num.names$ -- 2
-pop$ -- 8
+pop$ -- 3
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 4
 quote$ -- 0
-skip$ -- 6
+skip$ -- 9
 stack$ -- 0
-substring$ -- 6
+substring$ -- 5
 swap$ -- 1
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2
+type$ -- 4
 warning$ -- 0
 while$ -- 2
 width$ -- 2
-write$ -- 12
+write$ -- 13
