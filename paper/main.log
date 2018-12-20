@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  18 DEC 2018 17:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  20 DEC 2018 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -455,34 +455,38 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 13.
 
+Underfull \hbox (badness 10000) in paragraph at lines 17--21
+
+ []
+
 <universe.jpg, id=1, 102.3825pt x 73.9563pt>
 File: universe.jpg Graphic file (type jpg)
  <use universe.jpg>
-Package pdftex.def Info: universe.jpg used on input line 23.
+Package pdftex.def Info: universe.jpg used on input line 39.
 (pdftex.def)             Requested size: 174.0495pt x 125.72514pt.
- (./main.bbl)
+ (./main.bbl
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./unive
-rse.jpg>] (./main.aux) ) 
+rse.jpg>]) [2] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2127 strings out of 493033
- 27979 string characters out of 6134139
- 88689 words of memory out of 5000000
- 5649 multiletter control sequences out of 15000+600000
+ 2130 strings out of 493033
+ 28099 string characters out of 6134139
+ 88704 words of memory out of 5000000
+ 5652 multiletter control sequences out of 15000+600000
  7626 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,6n,23p,261b,220s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti10.pfb>
-Output written on main.pdf (1 page, 90410 bytes).
+ 37i,6n,23p,262b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmti10.pfb>
+Output written on main.pdf (2 pages, 93373 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 32 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
