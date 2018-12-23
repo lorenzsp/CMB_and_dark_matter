@@ -1,9 +1,19 @@
 \begin{thebibliography}{1}
 
+\bibitem{WayneHu}
+Wayne {{Hu}}.
+\newblock http://background.uchicago.edu/\textasciitilde{}whu/index.html.
+
 \bibitem{bucherPhysicsCosmicMicrowave2015}
 Martin Bucher.
 \newblock Physics of the cosmic microwave background anisotropy.
 \newblock January 2015.
+
+\bibitem{huLectureNotesCMB2008}
+Wayne Hu.
+\newblock Lecture {{Notes}} on {{CMB Theory}}: {{From Nucleosynthesis}} to
+  {{Recombination}}.
+\newblock {\em arXiv:0802.3688 [astro-ph]}, February 2008.
 
 \bibitem{padmanabhanDetectingDarkMatter2005}
 Nikhil Padmanabhan and Douglas~P. Finkbeiner.
