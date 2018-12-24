@@ -4,6 +4,11 @@
 Lectures.pdf.
 \newblock http://www.damtp.cam.ac.uk/user/db275/Cosmology/Lectures.pdf.
 
+\bibitem{RydenIntroCosmoPdf}
+Ryden\_{{IntroCosmo}}.pdf.
+\newblock
+  http://carina.fcaglp.unlp.edu.ar/extragalactica/Bibliografia/Ryden\_IntroCosmo.pdf.
+
 \bibitem{WayneHu}
 Wayne {{Hu}}.
 \newblock http://background.uchicago.edu/\textasciitilde{}whu/index.html.
@@ -24,5 +29,10 @@ Nikhil Padmanabhan and Douglas~P. Finkbeiner.
 \newblock Detecting {{Dark Matter Annihilation}} with {{CMB Polarization}} :
   {{Signatures}} and {{Experimental Prospects}}.
 \newblock {\em Physical Review D}, 72(2), July 2005.
+
+\bibitem{penziasMeasurementExcessAntenna1965}
+A.~A. Penzias and R.~W. Wilson.
+\newblock A {{Measurement}} of {{Excess Antenna Temperature}} at 4080 {{Mc}}/s.
+\newblock {\em The Astrophysical Journal}, 142:419--421, July 1965.
 
 \end{thebibliography}

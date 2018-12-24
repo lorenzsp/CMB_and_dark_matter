@@ -4,47 +4,48 @@ The top-level auxiliary file: main.aux
 The style file: plain.bst
 Database file #1: dark_1.bib
 Warning--to sort, need author or key in LecturesPdf
+Warning--to sort, need author or key in RydenIntroCosmoPdf
 Warning--to sort, need author or key in WayneHu
 Warning--empty journal in bucherPhysicsCosmicMicrowave2015
-You've used 5 entries,
+You've used 7 entries,
             2118 wiz_defined-function locations,
-            523 strings with 4716 characters,
-and the built_in function-call counts, 1000 in all, are:
-= -- 93
-> -- 29
+            535 strings with 5069 characters,
+and the built_in function-call counts, 1481 in all, are:
+= -- 140
+> -- 43
 < -- 0
-+ -- 13
-- -- 8
-* -- 50
-:= -- 166
-add.period$ -- 13
-call.type$ -- 5
-change.case$ -- 19
++ -- 20
+- -- 12
+* -- 79
+:= -- 237
+add.period$ -- 18
+call.type$ -- 7
+change.case$ -- 27
 chr.to.int$ -- 0
-cite$ -- 8
-duplicate$ -- 44
-empty$ -- 99
-format.name$ -- 8
-if$ -- 212
+cite$ -- 11
+duplicate$ -- 62
+empty$ -- 148
+format.name$ -- 12
+if$ -- 319
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 3
-newline$ -- 26
-num.names$ -- 6
-pop$ -- 29
+int.to.str$ -- 7
+missing$ -- 4
+newline$ -- 35
+num.names$ -- 8
+pop$ -- 40
 preamble$ -- 1
-purify$ -- 14
+purify$ -- 20
 quote$ -- 0
-skip$ -- 39
+skip$ -- 55
 stack$ -- 0
-substring$ -- 25
-swap$ -- 4
+substring$ -- 57
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 20
-warning$ -- 3
-while$ -- 6
-width$ -- 6
-write$ -- 46
-(There were 3 warnings)
+type$ -- 28
+warning$ -- 4
+while$ -- 9
+width$ -- 8
+write$ -- 64
+(There were 4 warnings)
