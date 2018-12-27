@@ -8,45 +8,46 @@ Warning--to sort, need author or key in RydenIntroCosmoPdf
 Warning--empty journal in bartelmannStandardModelCosmology
 Warning--empty year in bartelmannStandardModelCosmology
 Warning--empty journal in bucherPhysicsCosmicMicrowave2015
-You've used 7 entries,
+Warning--empty journal in garcia-bellidoAstrophysicsCosmology2000
+You've used 8 entries,
             2118 wiz_defined-function locations,
-            536 strings with 5125 characters,
-and the built_in function-call counts, 1613 in all, are:
-= -- 153
-> -- 49
+            541 strings with 5259 characters,
+and the built_in function-call counts, 1818 in all, are:
+= -- 172
+> -- 56
 < -- 1
-+ -- 23
-- -- 14
-* -- 87
-:= -- 263
-add.period$ -- 19
-call.type$ -- 7
-change.case$ -- 28
++ -- 26
+- -- 16
+* -- 97
+:= -- 301
+add.period$ -- 22
+call.type$ -- 8
+change.case$ -- 32
 chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 73
-empty$ -- 148
-format.name$ -- 14
-if$ -- 344
+cite$ -- 14
+duplicate$ -- 83
+empty$ -- 165
+format.name$ -- 16
+if$ -- 384
 int.to.chr$ -- 0
-int.to.str$ -- 7
-missing$ -- 5
-newline$ -- 36
-num.names$ -- 10
-pop$ -- 41
+int.to.str$ -- 8
+missing$ -- 6
+newline$ -- 41
+num.names$ -- 12
+pop$ -- 47
 preamble$ -- 1
-purify$ -- 21
+purify$ -- 24
 quote$ -- 0
-skip$ -- 61
+skip$ -- 68
 stack$ -- 0
-substring$ -- 64
+substring$ -- 69
 swap$ -- 12
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 28
-warning$ -- 5
-while$ -- 12
-width$ -- 8
-write$ -- 66
-(There were 5 warnings)
+type$ -- 32
+warning$ -- 6
+while$ -- 14
+width$ -- 9
+write$ -- 75
+(There were 6 warnings)

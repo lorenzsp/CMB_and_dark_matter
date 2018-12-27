@@ -10,10 +10,14 @@
 % ---- Maths -------
 \usepackage{amsmath}
 \usepackage{amsthm}
+\usepackage{physics}
 % ---- Links -------
 %\usepackage{hyperref}
 % citation color
 \usepackage[colorlinks=true,citecolor=blue]{hyperref}
+% for twnsore
+\usepackage{tensind}
+\tensordelimiter{:}
 
 
 %  ---- my commands -------
@@ -44,19 +48,20 @@ However, the fundamental nature of Dark Matter is not well understood yet, and w
 One of the most compelling evidence for the existence of Dark Matter comes from the analysis of the Cosmic Microwave Background (CMB).
 In this paper we explain how the  analysis of the CMB is linked to the energy-matter content of our Universe, and, within this framework, we study the role of Dark Matter.
 The aim of this paper is to give a short and concise overview of the cosmological evidence of Dark Matter given by the observations of the CMB.
+We are interested in providing few but fundamental ingredients to understand the importance of the CMB for Dark Matter to a reader that is not familiar with the topic.
 \\
+ 
+
+\subsection{The Cosmic Microwave Background in few lines}
 
 
 The Cosmic Microwave Background is the electromagnetic radiation coming from the hot plasma of the early stages of the Universe.
 When the Universe, made of hot plasma, reached a temperature low enough to form stable hydrogen $e^- + p^+  \rightarrow H + \gamma$ the number density of the free electrons dropped, causing the Thomson scattering $e^- + \gamma  \rightarrow e^- + \gamma$ to be inefficient and the photons to decouple. They have since streamed freely through the universe and are today observed as the Cosmic Microwave Background \citep{LecturesPdf}.\\
- 
- 
 
-\subsection{to be put in the paper or at the end}
 -practical Motivation for studyinbg the cmb: nice spectrum black body spectrum: physics well know, very intense radiation\\
 which info can we get from the cmb: Big bang, maater and energy content of the universe---dark matter is a big part of the matter content it influenced the spectrum  of the CMB ---- so it played a role.\\
 -\textbf{structure of the paper} \\
-
+--The experimental results from the observations of the Cosmic Microwave Background provide important details about energy-matter content of the Universe.
 
 
 %The recent measurements of the Cosmic Microwave Background (CMB) radiation allowed us to infer the presence of Dark Matter in the Universe. In this summary we will explain qualitatively how the presence of Dark Matter influences the CMB anisotropies.
@@ -93,7 +98,7 @@ Finally, observations and statistical analysis showed that the CMB spectrum is c
 % maybe last sentence in the introduction with the image
 
 
-\begin{figure}
+\begin{figure}[h]
 \centering
     \textbf{Cosmic Microwave Background  Spectrum}\par\medskip
 \centering
@@ -115,7 +120,7 @@ Finally, observations and statistical analysis showed that the CMB spectrum is c
 \end{figure}
 
 
-\begin{figure}
+\begin{figure}[h]
 \centering
     \textbf{Orbits of different  configurations of BBH}\par\medskip
 \centering
@@ -123,28 +128,89 @@ Finally, observations and statistical analysis showed that the CMB spectrum is c
 \caption{The microwave sky as seen by the COBE DMR (differential microwave radiometer) instrument. The top panel shows the microwave sky as seen on a linear tem- perature scale including zero. No anisotropies are visible in this image, because the CMB monopole at 2.725K dominates. In the middle panel, the monopole component has been subtracted. Apart from some slight contamination from the galaxy near the equator (corre- sponding to the plane of our Galaxy), one sees only a nearly perfect dipole pattern, owing to our peculiar motion with respect to the rest frame defined by the CMB. In the bottom panel, both the monopole and dipole components have been removed. Except for the galactic contamination around the equator, one sees the cosmic microwave background anisotropy along with some noise. (Credit: NASA/COBE Science Team)}
 \label{cobe_map}
 \end{figure}
+\pagebreak
 
-\section{Content of the Universe}
-The experimental results from the observations of the Cosmic Microwave Background provide important details about energy-matter content of the Universe. 
-We now need to set the theoretical framework we want to use to analyze the observations of the CMB.\\
-We assume that the observable properties of the Universe are isotropic and there is not a preferred direction. Therefore, the Universe is assumed to be homogenous and isotropic at enough large scales $> 100$ Mpc, at least up to the observable universe.\\
-Another important assumption is that there exists a class of observers at rest with respect to the Cosmic Microwave Background \citep{bartelmannStandardModelCosmology}. These observers do not see the dipole pattern typical of a moving observer with respect with the CMB. 
-For instance the Earth is not at rest with respect to the CMB as we can notice from the second panel in Figure (\ref{cobe_map}).\\
+\section{Content of the Universe} 
+It is often said that our Universe is made up of $68.8$\% of Dark Energy, and $26.8 $\% by Dark Matter and $4.9 $\% of ordinary matter, but what do we really mean by that?\\
+In this section we explain where the components of our Universe (Dark Matter, baryonic matter, Dark Energy, curvature)  arise from and how they are related with each others. 
+The assumptions and the theoretical framework that we are going to explain will be then used to analyze the observations of the CMB.\\
+We assume that the observable properties of the Universe are isotropic and there is not a preferred direction. 
+Therefore, the Universe is assumed to be homogenous and isotropic at enough large scales $> 100$ Mpc, at least up to the observable universe.\\
+Another important assumption is that there exists a class of observers at rest with respect to the Cosmic Microwave Background \citep{bartelmannStandardModelCosmology}.
+Let us clarify this concept. 
+After subtracting the average temperature of the CMB from its spectrum, a moving observer with respect with the CMB will see a dipole pattern, where the blue-shifted photons come from the direction the observer is moving toward to and the red-shifted photons from the opposite direction.
+Since Earth is not at rest with respect to the CMB, the satellite COBE measured the dipole pattern showed in the second panel in Figure (\ref{cobe_map}).\\
+Given these assumptions, the most general metric $g_{\mu \nu}$ satisfying homogeneity and isotropy is the Friedmann–Lemaître–Robertson–Walker (FLRW) metric written here in terms of the invariant geodesic distance $\dd s ^2 = g_{\mu \nu} \dd x^{\mu} \dd x^{\nu}$:
+\begin{equation}
+\label{metric}
+\dd s ^2 = -\dd t^2 + a^2 (t) \qty( \frac{1}{1-k \, r^2} \dd r^2 + r^2 \dd \Omega ^2 )  
+\end{equation}
+where $k$ is the spatial curvature and $a(t)$ is the scale factor (we set the light speed $c=1$).
+Notice that the FLRW metric has $g_{0 i}=0$ due to the isotropy.
+\\ % comments on the redshift, metric, what spatially flat means
+If we assume the correctnes of the General Theory of Relativity, we can use the Einstein's field equations
+\begin{equation}
+\label{einstein_eq}
+R_{\mu \nu} - \dfrac{1}{2} R \, g _{\mu \nu} + \Lambda g_{\mu \nu}= 8 \pi G \, T_{\mu \nu}
+\end{equation}
+in order to evolve the FLRW metric.
+The Einstein's field equations relate how the geometry of spacetime (left hand side) changes with the presence of masses and energy (right hand side).
+The most general fluid consistent with the assumption of homogeneity and isotropy is a perfect fluid, one in which an observer comoving with the fluid would see the universe around it as isotropic \citep{garcia-bellidoAstrophysicsCosmology2000}. Therefore, the energy-momentum tensor $T_{\mu \nu}$ can be written as
+\begin{equation}
+\label{energy-momentum-tensor}
+T^{\mu \nu } = (p + \rho)u ^{\mu} u^{\nu}+p g^{\mu \nu} 
+\end{equation}
+where $\rho$ and $p$ are, respectively, the mass density and the pressure of the fluid.\\
+Solving (\ref{einstein_eq}) for $\mu= 0=\nu$ using the above definition (\ref{energy-momentum-tensor}), gives us the Friedmann equation:
+\begin{equation}
+\label{firedmann_eq}
+\begin{split}
+H^2 = \qty(\frac{\dot{a}}{a})^2 = \dfrac{8 \pi G}{3} \rho -\dfrac{k}{a^2} + \frac{\Lambda}{3}
+\end{split}
+\end{equation}
+where $\dot{a}$ is the time derivative of the scale factor.\\
+And the conservation of energy momentum tensor $\nabla_\mu T^{\mu \nu} =0 $ becomes:
+\beq
+\label{energy_cons}
+\dv[]{}{t}\qty(\rho a^3) + p \dv[]{}{t} \qty(a^3)  = 0
+\eeq
+Solving this for matter $\rho_m << p_m$ (or \emph{dust}) and for radiation $\rho_r = p_r/3$ gives
+\begin{equation}
+\begin{split}
+\rho_m = \rho_{m 0} a^{-3} \hspace{1.5cm} \rho_r = \rho_{r 0} a^{-4} \notag
+\end{split}
+\end{equation}
+where $\rho_{m 0}$ and $\rho_{r 0}$ are the matter density and radiation density evaluated today $t = t_0$, $a(t_0) = a_0 =1$.\\
+We now rewrite equation (\ref{firedmann_eq}) as
+\begin{equation}
+H ^2 = H_0 ^2 \qty[
+\dfrac{8 \pi G}{3 H_0 ^2} \rho_{m 0} a^{-3}+
+\dfrac{8 \pi G}{3 H_0 ^2} \rho_{r 0} a^{-4}+ 
+\dfrac{-k}{H_0 ^2} a^{-2} + \dfrac{\Lambda}{3 H_0 ^2}
+]
+\end{equation}
+where we defined $H_0 = H(t_0)$.\\
+\beq
+\Omega_\Lambda = \dfrac{\Lambda}{3} \qquad \Omega_k = -  \dfrac{k}{H_0 ^2}
+\\
+\Omega_m = \dfrac{8 \pi G}{3 H_0 ^2} \rho_{m 0} \qquad \Omega_r =\dfrac{8 \pi G}{3 H_0 ^2} \rho_{r 0}
+\eeq
+evaluating the Friedmann equation (\ref{firedmann_eq}) today we obtain the cosmic sum rule
+\begin{equation}
+\label{cosmic_rule}
+\Omega_{\Lambda} + \Omega_{m} + \Omega_k + \Omega_{r} = 1
+\end{equation}
 
 
-  
-The best theory of gravity that can tell us accurately how the different components of the Universe evolved is the General Theory of Relativity, so far.
-Therefore, we assume the correctnes of the General Theory of Relativity.
 
- the energy-matter contentandis carried out using different 
-The General Theory of Relativity is the best theory of gravity that we have, so far. So,  
-\begin{itemize}
-\item Assumptions: working with the $\Lambda$CDM model
-\item General relativty
-\item Friedmann equations
-\end{itemize}
+
+
+
 
 \section{CMB theo analysis}
+
+
+
 \begin{itemize}
 \item hydrodynamics \citep{huLectureNotesCMB2008}
 page 14 eq 49 to page 17 eq 71\\
