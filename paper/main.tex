@@ -97,8 +97,7 @@ Nevertheless the satellites improved their accuracy, many other sources of noise
 Finally, observations and statistical analysis showed that the CMB spectrum is close to a black body spectrum up to fluctuations of order of $10^{-5}$ K (Figure (\ref{cobe_blackbody})).\\
 % maybe last sentence in the introduction with the image
 
-
-\begin{figure}[h]
+\begin{figure}
 \centering
     \textbf{Cosmic Microwave Background  Spectrum}\par\medskip
 \centering
@@ -120,7 +119,7 @@ Finally, observations and statistical analysis showed that the CMB spectrum is c
 \end{figure}
 
 
-\begin{figure}[h]
+\begin{figure}
 \centering
     \textbf{Orbits of different  configurations of BBH}\par\medskip
 \centering
@@ -128,7 +127,9 @@ Finally, observations and statistical analysis showed that the CMB spectrum is c
 \caption{The microwave sky as seen by the COBE DMR (differential microwave radiometer) instrument. The top panel shows the microwave sky as seen on a linear tem- perature scale including zero. No anisotropies are visible in this image, because the CMB monopole at 2.725K dominates. In the middle panel, the monopole component has been subtracted. Apart from some slight contamination from the galaxy near the equator (corre- sponding to the plane of our Galaxy), one sees only a nearly perfect dipole pattern, owing to our peculiar motion with respect to the rest frame defined by the CMB. In the bottom panel, both the monopole and dipole components have been removed. Except for the galactic contamination around the equator, one sees the cosmic microwave background anisotropy along with some noise. (Credit: NASA/COBE Science Team)}
 \label{cobe_map}
 \end{figure}
-\pagebreak
+
+\newpage
+
 
 \section{Content of the Universe} 
 It is often said that our Universe is made up of $68.8$\% of Dark Energy, and $26.8 $\% by Dark Matter and $4.9 $\% of ordinary matter, but what do we really mean by that?\\
@@ -169,11 +170,19 @@ H^2 = \qty(\frac{\dot{a}}{a})^2 = \dfrac{8 \pi G}{3} \rho -\dfrac{k}{a^2} + \fra
 \end{split}
 \end{equation}
 where $\dot{a}$ is the time derivative of the scale factor.\\
-And the conservation of energy momentum tensor $\nabla_\mu T^{\mu \nu} =0 $ becomes:
+And the conservation of energy momentum tensor $\nabla_\mu T^{\mu 0} =0 $ becomes:
 \beq
 \label{energy_cons}
 \dv[]{}{t}\qty(\rho a^3) + p \dv[]{}{t} \qty(a^3)  = 0
 \eeq
+Solving for radiation $\rho = p/3$
+\[
+\dot{\rho}  + 4 \frac{ \dot{a}}{a} \rho =0
+\]
+ And solving for matter $\rho << p$
+ \[
+ \dot{\rho}  + 3 \frac{ \dot{a}}{a} \rho =0
+ \]
 Solving this for matter $\rho_m << p_m$ (or \emph{dust}) and for radiation $\rho_r = p_r/3$ gives
 \begin{equation}
 \begin{split}
@@ -187,12 +196,11 @@ H ^2 = H_0 ^2 \qty[
 \dfrac{8 \pi G}{3 H_0 ^2} \rho_{m 0} a^{-3}+
 \dfrac{8 \pi G}{3 H_0 ^2} \rho_{r 0} a^{-4}+ 
 \dfrac{-k}{H_0 ^2} a^{-2} + \dfrac{\Lambda}{3 H_0 ^2}
-]
+] \notag
 \end{equation}
 where we defined $H_0 = H(t_0)$.\\
 \beq
-\Omega_\Lambda = \dfrac{\Lambda}{3} \qquad \Omega_k = -  \dfrac{k}{H_0 ^2}
-\\
+\Omega_\Lambda = \dfrac{\Lambda}{3} \qquad \Omega_k = -  \dfrac{k}{H_0 ^2} \qquad
 \Omega_m = \dfrac{8 \pi G}{3 H_0 ^2} \rho_{m 0} \qquad \Omega_r =\dfrac{8 \pi G}{3 H_0 ^2} \rho_{r 0}
 \eeq
 evaluating the Friedmann equation (\ref{firedmann_eq}) today we obtain the cosmic sum rule
@@ -207,9 +215,13 @@ evaluating the Friedmann equation (\ref{firedmann_eq}) today we obtain the cosmi
 
 
 
-\section{CMB theo analysis}
-
-
+\section{Acoustic Oscillations}
+The Cosmic Microwave Background is the image of the fluctuations of a dense and hot fluid made of matter (baryonic and dark) and radiation.
+Before the release of the CMB at $z > 1100$ the electromagnetic radiation is firmly coupled (both energetically and kinetically) to the baryons and it is possible to describe the behavior of such a system by using the equations of relativistic hydrodynamics and the Einstein's field equations (\ref{einstein_eq}).
+The full general-relativistic description of the photon-matter fluid requires a long derivation that can be found here [BAUMANN].\\
+So, we show how the acoustic oscillations arise from a simple non-relativistic model of a ideal fluid under the effect of a gravitational potwntial $\phi$.
+We assume that there is a set of fields \\
+Derivation from Bartelmann
 
 \begin{itemize}
 \item hydrodynamics \citep{huLectureNotesCMB2008}
