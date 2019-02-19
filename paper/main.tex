@@ -19,6 +19,9 @@
 \usepackage{tensind}
 \tensordelimiter{:}
 
+% for comments
+\usepackage{verbatim}
+
 
 %  ---- my commands -------
 \newcommand{\bea}{\setlength{\jot}{10pt}\begin{eqnarray*}}
@@ -42,11 +45,11 @@
 
 
 \section{Introduction}
-Many astronomical and cosmological observations suggest that there is a missing form of matter that interacts gravitationally. 
+Many astronomical and cosmological observations suggest that there is a missing form of matter that interacts gravitationally with baryonic matter. 
 In order to explain such observations, scientists have proposed the existence of Dark Matter, a new form of matter that does not interact electromagnetically but gravitationally.
-However, the fundamental nature of Dark Matter is not well understood yet, and whether Dark Matter is truly a new form of matter or the effect of new laws of gravity is still matter of debate.\\
+The fundamental nature of Dark Matter is not well understood yet, and whether Dark Matter is truly a new form of matter or the effect of new laws of gravity is still matter of debate.\\
 One of the most compelling evidence for the existence of Dark Matter comes from the analysis of the Cosmic Microwave Background (CMB).
-In this paper we explain how the  analysis of the CMB is linked to the energy-matter content of our Universe, and, within this framework, we study the role of Dark Matter.
+In this paper we explain how the analysis of the CMB is linked to the energy-matter content of our Universe, and we study the role of Dark Matter on the power spectrum of the CMB within the $\Lambda$CDM model.
 The aim of this paper is to give a short and concise overview of the cosmological evidence of Dark Matter given by the observations of the CMB.
 We are interested in providing few but fundamental ingredients to understand the importance of the CMB for Dark Matter to a reader that is not familiar with the topic.
 \\
@@ -56,12 +59,16 @@ We are interested in providing few but fundamental ingredients to understand the
 
 
 The Cosmic Microwave Background is the electromagnetic radiation coming from the hot plasma of the early stages of the Universe.
-When the Universe, made of hot plasma, reached a temperature low enough to form stable hydrogen $e^- + p^+  \rightarrow H + \gamma$ the number density of the free electrons dropped, causing the Thomson scattering $e^- + \gamma  \rightarrow e^- + \gamma$ to be inefficient and the photons to decouple. They have since streamed freely through the universe and are today observed as the Cosmic Microwave Background \citep{LecturesPdf}.\\
-
+As the Universe was expanding, it cooled down to a temperature low enough to form stable hydrogen $e^- + p^+  \rightarrow H + \gamma$. The number density of the free electrons dropped with the expansion causing the Thomson scattering $e^- + \gamma  \rightarrow e^- + \gamma$ to be inefficient and the photons to decouple. They have since streamed freely through the universe and are today observed as the Cosmic Microwave Background \citep{LecturesPdf}.\\
+The Cosmic Microwave Background is ideal for studying the content of our Universe, because it is the best measured Planck spectrum that we know.\\
+Since we know very well the 
 -practical Motivation for studyinbg the cmb: nice spectrum black body spectrum: physics well know, very intense radiation\\
 which info can we get from the cmb: Big bang, maater and energy content of the universe---dark matter is a big part of the matter content it influenced the spectrum  of the CMB ---- so it played a role.\\
 -\textbf{structure of the paper} \\
---The experimental results from the observations of the Cosmic Microwave Background provide important details about energy-matter content of the Universe.
+--The experimental results from the observations of the Cosmic Microwave Background provide important details about energy-matter content of the Universe.\\
+\paragraph{sctructure}
+We first give an historical overview of the discovery and measurements of the CMB, then we discuss the main assumptions of the $\Lambda$CDM model and the link between the content of our universe and the cosmological model. Afterwards, the phenomenology of the hot plasma is explained with a simplified treatment in order to understand the power spectrum of the CMB.
+We conclude with the discussion of the cmb power specctrum and the role of dark matter.
 
 
 %The recent measurements of the Cosmic Microwave Background (CMB) radiation allowed us to infer the presence of Dark Matter in the Universe. In this summary we will explain qualitatively how the presence of Dark Matter influences the CMB anisotropies.
@@ -144,42 +151,42 @@ Since Earth is not at rest with respect to the CMB, the satellite COBE measured 
 Given these assumptions, the most general metric $g_{\mu \nu}$ satisfying homogeneity and isotropy is the Friedmann–Lemaître–Robertson–Walker (FLRW) metric written here in terms of the invariant geodesic distance $\dd s ^2 = g_{\mu \nu} \dd x^{\mu} \dd x^{\nu}$:
 \begin{equation}
 \label{metric}
-\dd s ^2 = -\dd t^2 + a^2 (t) \qty( \frac{1}{1-k \, r^2} \dd r^2 + r^2 \dd \Omega ^2 )  
+\dd s ^2 = -c ^2 \dd t^2 + a^2 (t) \qty( \frac{1}{1-k \, r^2} \dd r^2 + r^2 \dd \Omega ^2 )  
 \end{equation}
-where $k$ is the spatial curvature and $a(t)$ is the scale factor (we set the light speed $c=1$).
+where $k$ is the spatial curvature and $a(t)$ is the scale factor.
 Notice that the FLRW metric has $g_{0 i}=0$ due to the isotropy.
 \\ % comments on the redshift, metric, what spatially flat means
 If we assume the correctnes of the General Theory of Relativity, we can use the Einstein's field equations
 \begin{equation}
 \label{einstein_eq}
-R_{\mu \nu} - \dfrac{1}{2} R \, g _{\mu \nu} + \Lambda g_{\mu \nu}= 8 \pi G \, T_{\mu \nu}
+R_{\mu \nu} - \dfrac{1}{2} R \, g _{\mu \nu} + \Lambda g_{\mu \nu}= \dfrac{8 \pi G}{c^4} \, T_{\mu \nu}
 \end{equation}
 in order to evolve the FLRW metric.
 The Einstein's field equations relate how the geometry of spacetime (left hand side) changes with the presence of masses and energy (right hand side).
 The most general fluid consistent with the assumption of homogeneity and isotropy is a perfect fluid, one in which an observer comoving with the fluid would see the universe around it as isotropic \citep{garcia-bellidoAstrophysicsCosmology2000}. Therefore, the energy-momentum tensor $T_{\mu \nu}$ can be written as
 \begin{equation}
 \label{energy-momentum-tensor}
-T^{\mu \nu } = (p + \rho)u ^{\mu} u^{\nu}+p g^{\mu \nu} 
+T^{\mu \nu } = (p + \rho c^2)u ^{\mu} u^{\nu}+p g^{\mu \nu} 
 \end{equation}
 where $\rho$ and $p$ are, respectively, the mass density and the pressure of the fluid.\\
 Solving (\ref{einstein_eq}) for $\mu= 0=\nu$ using the above definition (\ref{energy-momentum-tensor}), gives us the Friedmann equation:
 \begin{equation}
 \label{firedmann_eq}
 \begin{split}
-H^2 = \qty(\frac{\dot{a}}{a})^2 = \dfrac{8 \pi G}{3} \rho -\dfrac{k}{a^2} + \frac{\Lambda}{3}
+H^2 = \qty(\frac{\dot{a}}{a})^2 = \dfrac{8 \pi G}{3} \rho -\dfrac{k \, c^2}{a^2} + \frac{\Lambda \, c^2}{3}
 \end{split}
 \end{equation}
 where $\dot{a}$ is the time derivative of the scale factor.\\
 And the conservation of energy momentum tensor $\nabla_\mu T^{\mu 0} =0 $ becomes:
 \beq
 \label{energy_cons}
-\dv[]{}{t}\qty(\rho a^3) + p \dv[]{}{t} \qty(a^3)  = 0
+\dv[]{}{t}\qty(\rho c^2 a^3) + p \dv[]{}{t} \qty(a^3)  = 0
 \eeq
-Solving for radiation $\rho = p/3$
+Solving for radiation $\rho c^2 = p/3$
 \[
 \dot{\rho}  + 4 \frac{ \dot{a}}{a} \rho =0
 \]
- And solving for matter $\rho << p$
+ And solving for matter $\rho c^2 << p$
  \[
  \dot{\rho}  + 3 \frac{ \dot{a}}{a} \rho =0
  \]
@@ -195,12 +202,12 @@ We now rewrite equation (\ref{firedmann_eq}) as
 H ^2 = H_0 ^2 \qty[
 \dfrac{8 \pi G}{3 H_0 ^2} \rho_{m 0} a^{-3}+
 \dfrac{8 \pi G}{3 H_0 ^2} \rho_{r 0} a^{-4}+ 
-\dfrac{-k}{H_0 ^2} a^{-2} + \dfrac{\Lambda}{3 H_0 ^2}
+\dfrac{-k \, c^2}{H_0 ^2} a^{-2} + \dfrac{\Lambda \, c^2}{3 H_0 ^2}
 ] \notag
 \end{equation}
 where we defined $H_0 = H(t_0)$.\\
 \beq
-\Omega_\Lambda = \dfrac{\Lambda}{3} \qquad \Omega_k = -  \dfrac{k}{H_0 ^2} \qquad
+\Omega_\Lambda = \dfrac{\Lambda c^2}{3} \qquad \Omega_k = -  \dfrac{k c^2}{H_0 ^2} \qquad
 \Omega_m = \dfrac{8 \pi G}{3 H_0 ^2} \rho_{m 0} \qquad \Omega_r =\dfrac{8 \pi G}{3 H_0 ^2} \rho_{r 0}
 \eeq
 evaluating the Friedmann equation (\ref{firedmann_eq}) today we obtain the cosmic sum rule
@@ -215,13 +222,52 @@ evaluating the Friedmann equation (\ref{firedmann_eq}) today we obtain the cosmi
 
 
 
-\section{Acoustic Oscillations}
-The Cosmic Microwave Background is the image of the fluctuations of a dense and hot fluid made of matter (baryonic and dark) and radiation.
-Before the release of the CMB at $z > 1100$ the electromagnetic radiation is firmly coupled (both energetically and kinetically) to the baryons and it is possible to describe the behavior of such a system by using the equations of relativistic hydrodynamics and the Einstein's field equations (\ref{einstein_eq}).
-The full general-relativistic description of the photon-matter fluid requires a long derivation that can be found here [BAUMANN].\\
-So, we show how the acoustic oscillations arise from a simple non-relativistic model of a ideal fluid under the effect of a gravitational potwntial $\phi$.
-We assume that there is a set of fields \\
-Derivation from Bartelmann
+\section{Phenomenology of the Fluctuations}
+The Cosmic Microwave Background is the image of the fluctuations of a dense and hot fluid made of matter and radiation.
+Before the release of the CMB at $z > 1100$ the electromagnetic radiation is firmly coupled (both energetically and kinetically) to the baryons and it is possible to describe the behavior of such a system by using solving the equations of relativistic hydrodynamics and the Einstein's field equations (\ref{einstein_eq}) with small density $\delta \rho$, pressure $\delta p$ and gravitational potential perturbations $\delta \Phi$.
+The full general-relativistic description of the photon-matter fluid requires a complicated treatment[BAUMANN].
+However, it is possible to qualitatively discuss the phenomena occurring in the CMB fluid and the effects on the temperature fluctuations $\Theta = \delta T / T_0$.
+\subsection{Sachs-Wolfe effect}
+As a consequence of the Einstein's equivalence principle, photons that escape from a gravitational field are redshifted.
+If we consider the fluctuations of the CMB on large scales, the photons that tries to escape from the gravitational well created by matter are redshifted.
+
+\subsection{Acoustic oscillations}
+At the time of recombination
+Dark Matter is randomly distributed
+if a portion of photon-baryon fluid is in a potential well of the dark matter, it will fall to the center of the well
+gravity compresses the photon-baryon fluid
+pressure starts to rise
+the pressure is sufficient to cause the fluid to expand outward
+the pressure drops until gravity causes the photon-baryon fluid to fall inward again
+
+\subsection{Damping}
+The temperature fluctuations are damped due to collisions between the baryons and the photons that dissipate energy, and the expansion of the universe.
+
+
+\begin{comment}
+    This text will not be displayed.
+
+ by starting from the continuity and Euler equation for a photon fluid with  number density $n$, energy density $u$ and pressure $p$:
+\begin{equation}
+\label{hydro}
+\dot{n} + n_0 \vec{\nabla} \cdot \vec{v} = 0 \qquad
+\dot{\vec{v}} = - c^2 \dfrac{\vec{\nabla} \delta p}{p_0 + u_0} - \vec{\nabla} \delta \Phi
+\end{equation}
+where $v$ is the streaming velocity of the perturbations and the subscript $_0$ indicates the background average values of th correspondent quantities.\\
+For a photon gas we know that
+\begin{equation}
+n \propto T ^3 \qquad u \propto T^4 \qquad p  = \dfrac{u}{3}
+\end{equation}
+So, the temperature fluctuations are related to the number density, energy density and pressure as follow:
+\begin{equation}
+\dfrac{\delta n}{n_0} = 3 \Theta \qquad
+\dfrac{\delta u}{u_0} = 4 \Theta = \dfrac{\delta p}{p_0}
+\end{equation}
+We can rewrite eq.(\ref{hydro}) in terms of the temperature fluctuations:
+\begin{equation}
+\dot{\Theta} + \nabla \cdot \vec{v} = 0 \qquad \dot{\vec{v}} = - c^2 \vec{\nabla} \Theta - \vec{\nabla} \delta \Phi
+\end{equation}
+where we used $p_0 + u_0 = 4 p_0$
 
 \begin{itemize}
 \item hydrodynamics \citep{huLectureNotesCMB2008}
@@ -233,6 +279,8 @@ skip doppler effect
 %The consequence is that overdense regions where Ψ is negative (potential wells) are cold spots in the effective temperature.
 \item baryonic effect
 \end{itemize}
+\end{comment}
+
 
 \section{Comments on the results and plots of the CMB spectrum}
 

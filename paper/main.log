@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  5 JAN 2019 08:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  19 FEB 2019 17:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1567,23 +1567,29 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package: tensind 1998/05/01 v1.0 Tensorial Indexes
 \tsi@dimen=\dimen149
 \primes=\dimen150
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks28
+\verbatim@line=\toks29
+\verbatim@in@stream=\read1
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1592,12 +1598,12 @@ LaTeX Font Info:    ... okay on input line 39.
 \scratchbox=\box43
 \nofMPsegments=\count140
 \nofMParguments=\count141
-\everyMPshowfont=\toks28
+\everyMPshowfont=\toks30
 \MPscratchCnt=\count142
 \MPscratchDim=\dimen152
 \MPnumerator=\count143
 \makeMPintoPDFobject=\count144
-\everyMPtoPDFconversion=\toks29
+\everyMPtoPDFconversion=\toks31
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1624,7 +1630,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 143.
 )
-Package hyperref Info: Link coloring ON on input line 39.
+Package hyperref Info: Link coloring ON on input line 42.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1634,118 +1640,117 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count145
 )
-LaTeX Info: Redefining \ref on input line 39.
-LaTeX Info: Redefining \pageref on input line 39.
-LaTeX Info: Redefining \nameref on input line 39.
+LaTeX Info: Redefining \ref on input line 42.
+LaTeX Info: Redefining \pageref on input line 42.
+LaTeX Info: Redefining \nameref on input line 42.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--53
+Underfull \hbox (badness 10000) in paragraph at lines 48--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
+Underfull \hbox (badness 10000) in paragraph at lines 61--69
 
  []
 
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<Horn_Antenna.jpeg, id=47, 672.8337pt x 529.2573pt>
+<Horn_Antenna.jpeg, id=55, 672.8337pt x 529.2573pt>
 File: Horn_Antenna.jpeg Graphic file (type jpg)
  <use Horn_Antenna.jpeg>
-Package pdftex.def Info: Horn_Antenna.jpeg used on input line 72.
+Package pdftex.def Info: Horn_Antenna.jpeg used on input line 79.
 (pdftex.def)             Requested size: 345.0pt x 271.38744pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--99
+Underfull \hbox (badness 10000) in paragraph at lines 84--106
 
  []
 
-[2 <./Horn_Antenna.jpeg>] <blackbody.png, id=68, 2007.5pt x 1606.0pt>
+[2 <./Horn_Antenna.jpeg>] <blackbody.png, id=74, 2007.5pt x 1606.0pt>
 File: blackbody.png Graphic file (type png)
 
 <use blackbody.png>
-Package pdftex.def Info: blackbody.png used on input line 104.
+Package pdftex.def Info: blackbody.png used on input line 111.
 (pdftex.def)             Requested size: 284.50949pt x 227.62204pt.
- <cobe_wmap_planck.jpg, id=70, 963.6pt x 1498.59875pt>
+ <cobe_wmap_planck.jpg, id=76, 963.6pt x 1498.59875pt>
 File: cobe_wmap_planck.jpg Graphic file (type jpg)
 
 <use cobe_wmap_planck.jpg>
-Package pdftex.def Info: cobe_wmap_planck.jpg used on input line 114.
+Package pdftex.def Info: cobe_wmap_planck.jpg used on input line 121.
 (pdftex.def)             Requested size: 155.24895pt x 241.42711pt.
 
-<mono_di_cobe.pdf, id=71, 597.50786pt x 845.04686pt>
+<mono_di_cobe.pdf, id=77, 597.50786pt x 845.04686pt>
 File: mono_di_cobe.pdf Graphic file (type pdf)
  <use mono_di_cobe.pdf>
-Package pdftex.def Info: mono_di_cobe.pdf used on input line 126.
+Package pdftex.def Info: mono_di_cobe.pdf used on input line 133.
 (pdftex.def)             Requested size: 179.25374pt x 253.516pt.
 
 [3] [4 <./blackbody.png>] [5 <./cobe_wmap_planck.jpg>] [6 <./mono_di_cobe.pdf>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--202
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
 
  []
 
 [7]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 227.
-
- (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 227.
-
-Overfull \hbox (4.40138pt too wide) in paragraph at lines 237--237
+Overfull \hbox (4.40138pt too wide) in paragraph at lines 285--285
 []\OT1/cmr/bx/n/14.4 Comments on the re-sults and plots of the CMB
  []
 
-(./main.bbl
+(./main.bbl [8pdfTeX warning (ext4): destination with the same identifier (name
+{equation.3.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \begin{thebibliography}{1}
+                              pdfTeX warning (ext4): destination with the same 
+identifier (name{equation.3.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \begin{thebibliography}{1}
+                              ]
 Overfull \hbox (28.7619pt too wide) in paragraph at lines 4--6
 []\OT1/cmr/m/n/10 Lectures.pdf.  http://www.damtp.cam.ac.uk/user/db275/Cosmolog
 y/Lectures.pdf. 
  []
 
-[8pdfTeX warning (ext4): destination with the same identifier (name{equation.3.
-6}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.7 \bibitem{RydenIntroCosmoPdf}
-                                pdfTeX warning (ext4): destination with the sam
-e identifier (name{equation.3.6}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.7 \bibitem{RydenIntroCosmoPdf}
-                                ]
 Overfull \hbox (144.40671pt too wide) in paragraph at lines 8--11
 []\OT1/cmr/m/n/10 Ryden[]IntroCosmo.pdf.  http://carina.fcaglp.unlp.edu.ar/extr
 agalactica/Bibliografia/Ryden[]IntroCosmo.pdf. 
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 301.
  [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 253.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 253.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 477130211C571B0D16DCBB2B2DF41447;473.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 301.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 301.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 200C55DD40E9D06C7C1B0307D4D3BCD2;622
+(rerunfilecheck)             After:  48CB58731B65939183877CC154CA534F;679.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 301.
  ) 
 Here is how much of TeX's memory you used:
- 13825 strings out of 493033
- 237425 string characters out of 6134139
- 303330 words of memory out of 5000000
- 17224 multiletter control sequences out of 15000+600000
+ 13842 strings out of 493033
+ 237745 string characters out of 6134139
+ 304976 words of memory out of 5000000
+ 17237 multiletter control sequences out of 15000+600000
  9537 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,19n,42p,10433b,427s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,19n,42p,10433b,369s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -1761,10 +1766,10 @@ ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
 2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/201
 5/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (9 pages, 1316365 bytes).
+Output written on main.pdf (9 pages, 1318640 bytes).
 PDF statistics:
- 206 PDF objects out of 1000 (max. 8388607)
- 170 compressed objects within 2 object streams
- 38 named destinations out of 1000 (max. 500000)
- 77 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 215 PDF objects out of 1000 (max. 8388607)
+ 179 compressed objects within 2 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 
