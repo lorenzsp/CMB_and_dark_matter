@@ -9,45 +9,45 @@ Warning--empty journal in bartelmannStandardModelCosmology
 Warning--empty year in bartelmannStandardModelCosmology
 Warning--empty journal in bucherPhysicsCosmicMicrowave2015
 Warning--empty journal in garcia-bellidoAstrophysicsCosmology2000
-You've used 8 entries,
+You've used 7 entries,
             2118 wiz_defined-function locations,
-            541 strings with 5259 characters,
-and the built_in function-call counts, 1818 in all, are:
-= -- 172
-> -- 56
+            535 strings with 5096 characters,
+and the built_in function-call counts, 1612 in all, are:
+= -- 152
+> -- 49
 < -- 1
-+ -- 26
-- -- 16
-* -- 97
-:= -- 301
-add.period$ -- 22
-call.type$ -- 8
-change.case$ -- 32
++ -- 23
+- -- 14
+* -- 87
+:= -- 262
+add.period$ -- 19
+call.type$ -- 7
+change.case$ -- 28
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 83
-empty$ -- 165
-format.name$ -- 16
-if$ -- 384
+cite$ -- 13
+duplicate$ -- 73
+empty$ -- 148
+format.name$ -- 14
+if$ -- 343
 int.to.chr$ -- 0
-int.to.str$ -- 8
-missing$ -- 6
-newline$ -- 41
-num.names$ -- 12
-pop$ -- 47
+int.to.str$ -- 7
+missing$ -- 5
+newline$ -- 36
+num.names$ -- 10
+pop$ -- 43
 preamble$ -- 1
-purify$ -- 24
+purify$ -- 21
 quote$ -- 0
-skip$ -- 68
+skip$ -- 61
 stack$ -- 0
-substring$ -- 69
-swap$ -- 12
+substring$ -- 64
+swap$ -- 11
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 32
+type$ -- 28
 warning$ -- 6
-while$ -- 14
-width$ -- 9
-write$ -- 75
+while$ -- 12
+width$ -- 8
+write$ -- 65
 (There were 6 warnings)

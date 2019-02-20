@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  19 FEB 2019 17:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  19 FEB 2019 20:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -333,20 +333,47 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip43
-\bibsep=\skip44
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count87
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks17
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count90
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
@@ -367,10 +394,10 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count88
+\Gread@gobject=\count91
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
@@ -382,65 +409,65 @@ Package: amstext 2000/06/29 v2.01
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks17
-\ex@=\dimen105
+\@emptytoks=\toks18
+\ex@=\dimen113
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen106
+\pmbraise@=\dimen114
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count89
+\inf@bad=\count92
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count90
-\leftroot@=\count91
+\uproot@=\count93
+\leftroot@=\count94
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count92
-\DOTSCASE@=\count93
+\classnum@=\count95
+\DOTSCASE@=\count96
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
-\big@size=\dimen107
+\big@size=\dimen115
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count94
-\c@MaxMatrixCols=\count95
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
 \dotsspace@=\muskip10
-\c@parentequation=\count96
-\dspbrk@lvl=\count97
-\tag@help=\toks18
-\row@=\count98
-\column@=\count99
-\maxfields@=\count100
-\andhelp@=\toks19
-\eqnshift@=\dimen108
-\alignsep@=\dimen109
-\tagshift@=\dimen110
-\tagwidth@=\dimen111
-\totwidth@=\dimen112
-\lineht@=\dimen113
-\@envbody=\toks20
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks19
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks20
+\eqnshift@=\dimen116
+\alignsep@=\dimen117
+\tagshift@=\dimen118
+\tagwidth@=\dimen119
+\totwidth@=\dimen120
+\lineht@=\dimen121
+\@envbody=\toks21
 \multlinegap=\skip46
 \multlinetaggap=\skip47
-\mathdisplay@stack=\toks21
+\mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2015/03/04 v2.20.2
-\thm@style=\toks22
-\thm@bodyfont=\toks23
-\thm@headfont=\toks24
-\thm@notefont=\toks25
-\thm@headpunct=\toks26
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
 \thm@preskip=\skip48
 \thm@postskip=\skip49
 \thm@headsep=\skip50
-\dth@everypar=\toks27
+\dth@everypar=\toks28
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/physics/physics.sty
 Package: physics 
@@ -459,31 +486,31 @@ L3 Module: l3tl 2015/09/29 v6121 L3 Token lists
 L3 Module: l3str 2016/01/03 v6357 L3 Strings
 L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
 L3 Module: l3int 2016/01/05 v6366 L3 Integers
-\c_max_int=\count101
-\l_tmpa_int=\count102
-\l_tmpb_int=\count103
-\g_tmpa_int=\count104
-\g_tmpb_int=\count105
+\c_max_int=\count104
+\l_tmpa_int=\count105
+\l_tmpb_int=\count106
+\g_tmpa_int=\count107
+\g_tmpb_int=\count108
 L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
 L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
-\g__prg_map_int=\count106
+\g__prg_map_int=\count109
 L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
 L3 Module: l3token 2015/11/11 v6249 L3 Experimental token manipulation
 L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
 L3 Module: l3msg 2015/09/28 v6113 L3 Messages
 L3 Module: l3file 2015/12/03 v6317 L3 File and I/O operations
-\l_iow_line_count_int=\count107
-\l__iow_target_count_int=\count108
-\l__iow_current_line_int=\count109
-\l__iow_current_word_int=\count110
-\l__iow_current_indentation_int=\count111
+\l_iow_line_count_int=\count110
+\l__iow_target_count_int=\count111
+\l__iow_current_line_int=\count112
+\l__iow_current_word_int=\count113
+\l__iow_current_indentation_int=\count114
 L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
-\c_zero_dim=\dimen114
-\c_max_dim=\dimen115
-\l_tmpa_dim=\dimen116
-\l_tmpb_dim=\dimen117
-\g_tmpa_dim=\dimen118
-\g_tmpb_dim=\dimen119
+\c_zero_dim=\dimen122
+\c_max_dim=\dimen123
+\l_tmpa_dim=\dimen124
+\l_tmpb_dim=\dimen125
+\g_tmpa_dim=\dimen126
+\g_tmpb_dim=\dimen127
 \c_zero_skip=\skip51
 \c_max_skip=\skip52
 \l_tmpa_skip=\skip53
@@ -497,18 +524,18 @@ L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
 L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
-\g__keyval_level_int=\count112
-\l_keys_choice_int=\count113
+\g__keyval_level_int=\count115
+\l_keys_choice_int=\count116
 L3 Module: l3fp 2015/08/25 v5890 L3 Floating points
-\c__fp_leading_shift_int=\count114
-\c__fp_middle_shift_int=\count115
-\c__fp_trailing_shift_int=\count116
-\c__fp_big_leading_shift_int=\count117
-\c__fp_big_middle_shift_int=\count118
-\c__fp_big_trailing_shift_int=\count119
-\c__fp_Bigg_leading_shift_int=\count120
-\c__fp_Bigg_middle_shift_int=\count121
-\c__fp_Bigg_trailing_shift_int=\count122
+\c__fp_leading_shift_int=\count117
+\c__fp_middle_shift_int=\count118
+\c__fp_trailing_shift_int=\count119
+\c__fp_big_leading_shift_int=\count120
+\c__fp_big_middle_shift_int=\count121
+\c__fp_big_trailing_shift_int=\count122
+\c__fp_Bigg_leading_shift_int=\count123
+\c__fp_Bigg_middle_shift_int=\count124
+\c__fp_Bigg_trailing_shift_int=\count125
 L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
 \c_empty_box=\box28
 \l_tmpa_box=\box29
@@ -517,13 +544,13 @@ L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
 \g_tmpb_box=\box32
 L3 Module: l3coffins 2015/08/06 v5789 L3 Coffin code layer
 \l__coffin_internal_box=\box33
-\l__coffin_internal_dim=\dimen120
-\l__coffin_offset_x_dim=\dimen121
-\l__coffin_offset_y_dim=\dimen122
-\l__coffin_x_dim=\dimen123
-\l__coffin_y_dim=\dimen124
-\l__coffin_x_prime_dim=\dimen125
-\l__coffin_y_prime_dim=\dimen126
+\l__coffin_internal_dim=\dimen128
+\l__coffin_offset_x_dim=\dimen129
+\l__coffin_offset_y_dim=\dimen130
+\l__coffin_x_dim=\dimen131
+\l__coffin_y_dim=\dimen132
+\l__coffin_x_prime_dim=\dimen133
+\l__coffin_y_prime_dim=\dimen134
 \c_empty_coffin=\box34
 \l__coffin_aligned_coffin=\box35
 \l__coffin_aligned_internal_coffin=\box36
@@ -532,40 +559,40 @@ L3 Module: l3coffins 2015/08/06 v5789 L3 Coffin code layer
 \l__coffin_display_coffin=\box39
 \l__coffin_display_coord_coffin=\box40
 \l__coffin_display_pole_coffin=\box41
-\l__coffin_display_offset_dim=\dimen127
-\l__coffin_display_x_dim=\dimen128
-\l__coffin_display_y_dim=\dimen129
+\l__coffin_display_offset_dim=\dimen135
+\l__coffin_display_x_dim=\dimen136
+\l__coffin_display_y_dim=\dimen137
 L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
 L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
 L3 Module: l3candidates 2016/01/14 v6376 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen130
-\l__box_bottom_dim=\dimen131
-\l__box_left_dim=\dimen132
-\l__box_right_dim=\dimen133
-\l__box_top_new_dim=\dimen134
-\l__box_bottom_new_dim=\dimen135
-\l__box_left_new_dim=\dimen136
-\l__box_right_new_dim=\dimen137
+\l__box_top_dim=\dimen138
+\l__box_bottom_dim=\dimen139
+\l__box_left_dim=\dimen140
+\l__box_right_dim=\dimen141
+\l__box_top_new_dim=\dimen142
+\l__box_bottom_new_dim=\dimen143
+\l__box_left_new_dim=\dimen144
+\l__box_right_new_dim=\dimen145
 \l__box_internal_box=\box42
-\l__coffin_bounding_shift_dim=\dimen138
-\l__coffin_left_corner_dim=\dimen139
-\l__coffin_right_corner_dim=\dimen140
-\l__coffin_bottom_corner_dim=\dimen141
-\l__coffin_top_corner_dim=\dimen142
-\l__coffin_scaled_total_height_dim=\dimen143
-\l__coffin_scaled_width_dim=\dimen144
+\l__coffin_bounding_shift_dim=\dimen146
+\l__coffin_left_corner_dim=\dimen147
+\l__coffin_right_corner_dim=\dimen148
+\l__coffin_bottom_corner_dim=\dimen149
+\l__coffin_top_corner_dim=\dimen150
+\l__coffin_scaled_total_height_dim=\dimen151
+\l__coffin_scaled_width_dim=\dimen152
 L3 Module: l3luatex 2015/11/11 v6250 L3 Experimental LuaTeX-specific functions
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2015/11/11 v6250 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count123
+\l__driver_color_stack_int=\count126
 ))
 Package: xparse 2016/01/19 v6377 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count124
-\l__xparse_m_args_int=\count125
-\l__xparse_mandatory_args_int=\count126
-\l__xparse_processor_int=\count127
-\l__xparse_v_nesting_int=\count128
+\l__xparse_current_arg_int=\count127
+\l__xparse_m_args_int=\count128
+\l__xparse_mandatory_args_int=\count129
+\l__xparse_processor_int=\count130
+\l__xparse_v_nesting_int=\count131
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -1459,11 +1486,9 @@ Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -1493,25 +1518,22 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen145
-\Hy@linkcounter=\count129
-\Hy@pagecounter=\count130
+\@linkdim=\dimen153
+\Hy@linkcounter=\count132
+\Hy@pagecounter=\count133
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count131
+\Hy@SavedSpaceFactor=\count134
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1524,17 +1546,17 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count132
+\c@Hy@tempcnt=\count135
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen146
-\Fld@menulength=\count133
-\Field@Width=\dimen147
-\Fld@charsize=\dimen148
+\XeTeXLinkMargin=\dimen154
+\Fld@menulength=\count136
+\Field@Width=\dimen155
+\Fld@charsize=\dimen156
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -1544,17 +1566,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count134
-\c@Item=\count135
-\c@Hfootnote=\count136
+\Hy@abspage=\count137
+\c@Item=\count138
+\c@Hfootnote=\count139
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count137
-\c@bookmark@seq@number=\count138
+\Fld@listcount=\count140
+\c@bookmark@seq@number=\count141
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -1565,13 +1587,13 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/bezos/tensind.sty
 Package: tensind 1998/05/01 v1.0 Tensorial Indexes
-\tsi@dimen=\dimen149
-\primes=\dimen150
+\tsi@dimen=\dimen157
+\primes=\dimen158
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks28
-\verbatim@line=\toks29
+\every@verbatim=\toks29
+\verbatim@line=\toks30
 \verbatim@in@stream=\read1
 ) (./main.aux)
 \openout1 = `main.aux'.
@@ -1591,19 +1613,53 @@ LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
 
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(81.94394pt, 433.62pt, 81.94394pt)
+* v-part:(T,H,B)=(106.75473pt, 578.15999pt, 160.13213pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=433.62pt
+* \textheight=578.15999pt
+* \oddsidemargin=9.67395pt
+* \evensidemargin=9.67395pt
+* \topmargin=-2.51526pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count139
-\scratchdimen=\dimen151
+\scratchcounter=\count142
+\scratchdimen=\dimen159
 \scratchbox=\box43
-\nofMPsegments=\count140
-\nofMParguments=\count141
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count142
-\MPscratchDim=\dimen152
-\MPnumerator=\count143
-\makeMPintoPDFobject=\count144
-\everyMPtoPDFconversion=\toks31
+\nofMPsegments=\count143
+\nofMParguments=\count144
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count145
+\MPscratchDim=\dimen160
+\MPnumerator=\count146
+\makeMPintoPDFobject=\count147
+\everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1638,7 +1694,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count145
+\c@section@level=\count148
 )
 LaTeX Info: Redefining \ref on input line 42.
 LaTeX Info: Redefining \pageref on input line 42.
@@ -1661,96 +1717,106 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--69
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<Horn_Antenna.jpeg, id=55, 672.8337pt x 529.2573pt>
+<Horn_Antenna.jpeg, id=69, 672.8337pt x 529.2573pt>
 File: Horn_Antenna.jpeg Graphic file (type jpg)
  <use Horn_Antenna.jpeg>
-Package pdftex.def Info: Horn_Antenna.jpeg used on input line 79.
-(pdftex.def)             Requested size: 345.0pt x 271.38744pt.
+Package pdftex.def Info: Horn_Antenna.jpeg used on input line 80.
+(pdftex.def)             Requested size: 303.53267pt x 238.76118pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--106
+Underfull \hbox (badness 10000) in paragraph at lines 87--109
 
  []
 
-[2 <./Horn_Antenna.jpeg>] <blackbody.png, id=74, 2007.5pt x 1606.0pt>
+[2 <./Horn_Antenna.jpeg>] <blackbody.png, id=94, 2007.5pt x 1606.0pt>
 File: blackbody.png Graphic file (type png)
 
 <use blackbody.png>
-Package pdftex.def Info: blackbody.png used on input line 111.
+Package pdftex.def Info: blackbody.png used on input line 114.
 (pdftex.def)             Requested size: 284.50949pt x 227.62204pt.
- <cobe_wmap_planck.jpg, id=76, 963.6pt x 1498.59875pt>
-File: cobe_wmap_planck.jpg Graphic file (type jpg)
+ <cmb1.jpg, id=96, 823.075pt x 444.66125pt>
+File: cmb1.jpg Graphic file (type jpg)
+ <use cmb1.jpg>
+Package pdftex.def Info: cmb1.jpg used on input line 124.
+(pdftex.def)             Requested size: 325.215pt x 175.69693pt.
 
-<use cobe_wmap_planck.jpg>
-Package pdftex.def Info: cobe_wmap_planck.jpg used on input line 121.
-(pdftex.def)             Requested size: 155.24895pt x 241.42711pt.
-
-<mono_di_cobe.pdf, id=77, 597.50786pt x 845.04686pt>
+<mono_di_cobe.pdf, id=97, 597.50786pt x 845.04686pt>
 File: mono_di_cobe.pdf Graphic file (type pdf)
  <use mono_di_cobe.pdf>
-Package pdftex.def Info: mono_di_cobe.pdf used on input line 133.
+Package pdftex.def Info: mono_di_cobe.pdf used on input line 136.
 (pdftex.def)             Requested size: 179.25374pt x 253.516pt.
 
-[3] [4 <./blackbody.png>] [5 <./cobe_wmap_planck.jpg>] [6 <./mono_di_cobe.pdf>]
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--209
+[3 <./blackbody.png>] [4 <./cmb1.jpg>] [5 <./mono_di_cobe.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 210--212
 
  []
 
-[7]
-Overfull \hbox (4.40138pt too wide) in paragraph at lines 285--285
-[]\OT1/cmr/bx/n/14.4 Comments on the re-sults and plots of the CMB
- []
-
-(./main.bbl [8pdfTeX warning (ext4): destination with the same identifier (name
-{equation.3.6}) has been already used, duplicate ignored
+[6pdfTeX warning (ext4): destination with the same identifier (name{equation.3.
+6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1 \begin{thebibliography}{1}
-                              pdfTeX warning (ext4): destination with the same 
-identifier (name{equation.3.6}) has been already used, duplicate ignored
+l.233 \subsection
+                 {Sachs-Wolfe effect}pdfTeX warning (ext4): destination with th
+e same identifier (name{equation.3.6}) has been already used, duplicate ignored
+
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1 \begin{thebibliography}{1}
-                              ]
-Overfull \hbox (28.7619pt too wide) in paragraph at lines 4--6
-[]\OT1/cmr/m/n/10 Lectures.pdf.  http://www.damtp.cam.ac.uk/user/db275/Cosmolog
-y/Lectures.pdf. 
+l.233 \subsection
+                 {Sachs-Wolfe effect}]
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+
  []
 
+[7] <planck2018.jpeg, id=155, 1150.2975pt x 778.91pt>
+File: planck2018.jpeg Graphic file (type jpg)
+ <use planck2018.jpeg>
+Package pdftex.def Info: planck2018.jpeg used on input line 329.
+(pdftex.def)             Requested size: 390.25534pt x 264.2554pt.
 
-Overfull \hbox (144.40671pt too wide) in paragraph at lines 8--11
+Underfull \hbox (badness 10000) in paragraph at lines 323--339
+
+ []
+
+[8] [9 <./planck2018.jpeg>]
+<curvature_de.jpeg, id=169, 1202.4925pt x 651.43375pt>
+File: curvature_de.jpeg Graphic file (type jpg)
+ <use curvature_de.jpeg>
+Package pdftex.def Info: curvature_de.jpeg used on input line 355.
+(pdftex.def)             Requested size: 433.62pt x 234.90363pt.
+
+[10 <./curvature_de.jpeg>] [11]
+<baryon_m.jpeg, id=182, 1246.6575pt x 647.41875pt>
+File: baryon_m.jpeg Graphic file (type jpg)
+ <use baryon_m.jpeg>
+Package pdftex.def Info: baryon_m.jpeg used on input line 405.
+(pdftex.def)             Requested size: 433.62pt x 225.18729pt.
+
+(./main.bbl [12 <./baryon_m.jpeg>]
+Overfull \hbox (55.78671pt too wide) in paragraph at lines 8--11
 []\OT1/cmr/m/n/10 Ryden[]IntroCosmo.pdf.  http://carina.fcaglp.unlp.edu.ar/extr
 agalactica/Bibliografia/Ryden[]IntroCosmo.pdf. 
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 301.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 418.
+ [13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 418.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 301.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 301.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 200C55DD40E9D06C7C1B0307D4D3BCD2;622
-(rerunfilecheck)             After:  48CB58731B65939183877CC154CA534F;679.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 301.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 418.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 418.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 13EA89F935766FAF903EF7E09AE786A1;827.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 418.
  ) 
 Here is how much of TeX's memory you used:
- 13842 strings out of 493033
- 237745 string characters out of 6134139
- 304976 words of memory out of 5000000
- 17237 multiletter control sequences out of 15000+600000
+ 14316 strings out of 493033
+ 244658 string characters out of 6134139
+ 318645 words of memory out of 5000000
+ 17683 multiletter control sequences out of 15000+600000
  9537 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,19n,42p,10433b,369s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,19n,42p,10433b,431s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -1766,10 +1832,10 @@ ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
 2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/201
 5/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (9 pages, 1318640 bytes).
+Output written on main.pdf (13 pages, 1467521 bytes).
 PDF statistics:
- 215 PDF objects out of 1000 (max. 8388607)
- 179 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 260 PDF objects out of 1000 (max. 8388607)
+ 216 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 132 words of extra memory for PDF output out of 10000 (max. 10000000)
 

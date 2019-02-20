@@ -1,6 +1,6 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
-
+\usepackage[a4paper, total={6in, 8in}]{geometry}
 \title{Cosmological Evidences of Dark Matter through the CMB}
 \author{Lorenzo Speri}
 \date{}
@@ -48,7 +48,7 @@
 Many astronomical and cosmological observations suggest that there is a missing form of matter that interacts gravitationally with baryonic matter. 
 In order to explain such observations, scientists have proposed the existence of Dark Matter, a new form of matter that does not interact electromagnetically but gravitationally.
 The fundamental nature of Dark Matter is not well understood yet, and whether Dark Matter is truly a new form of matter or the effect of new laws of gravity is still matter of debate.\\
-One of the most compelling evidence for the existence of Dark Matter comes from the analysis of the Cosmic Microwave Background (CMB).
+One of the most compelling evidence for the existence of Dark Matter is given by the analysis of the Cosmic Microwave Background (CMB).
 In this paper we explain how the analysis of the CMB is linked to the energy-matter content of our Universe, and we study the role of Dark Matter on the power spectrum of the CMB within the $\Lambda$CDM model.
 The aim of this paper is to give a short and concise overview of the cosmological evidence of Dark Matter given by the observations of the CMB.
 We are interested in providing few but fundamental ingredients to understand the importance of the CMB for Dark Matter to a reader that is not familiar with the topic.
@@ -56,11 +56,9 @@ We are interested in providing few but fundamental ingredients to understand the
  
 
 \subsection{The Cosmic Microwave Background in few lines}
-
-
 The Cosmic Microwave Background is the electromagnetic radiation coming from the hot plasma of the early stages of the Universe.
-As the Universe was expanding, it cooled down to a temperature low enough to form stable hydrogen $e^- + p^+  \rightarrow H + \gamma$. The number density of the free electrons dropped with the expansion causing the Thomson scattering $e^- + \gamma  \rightarrow e^- + \gamma$ to be inefficient and the photons to decouple. They have since streamed freely through the universe and are today observed as the Cosmic Microwave Background \citep{LecturesPdf}.\\
-The Cosmic Microwave Background is ideal for studying the content of our Universe, because it is the best measured Planck spectrum that we know.\\
+As the Universe was expanding, the hot plasma cooled down to a temperature low enough to form stable hydrogen $e^- + p^+  \rightarrow H + \gamma$. The number density of the free electrons dropped with the expansion causing the Thomson scattering $e^- + \gamma  \rightarrow e^- + \gamma$ to be inefficient and the photons to decouple. They have since streamed freely through the universe and are today observed as the Cosmic Microwave Background \citep{LecturesPdf}.\\
+The Cosmic Microwave Background appears to us as the best measured Planck spectrum that we know.\\
 Since we know very well the 
 -practical Motivation for studyinbg the cmb: nice spectrum black body spectrum: physics well know, very intense radiation\\
 which info can we get from the cmb: Big bang, maater and energy content of the universe---dark matter is a big part of the matter content it influenced the spectrum  of the CMB ---- so it played a role.\\
@@ -76,9 +74,12 @@ We conclude with the discussion of the cmb power specctrum and the role of dark 
 \section{From the Discovery of the CMB to the Planck mission}
 
 \begin{figure}
-\includegraphics[width=\textwidth]{Horn_Antenna.jpeg}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{Horn_Antenna.jpeg}
 \caption{The 15 meter Holmdel horn antenna at Bell Telephone Laboratories in Holmdel, New Jersey.
 (By NASA - Great Images in NASA Description, Public Domain, \url{https://commons.wikimedia.org/w/index.php?curid=6463768})}
+\end{center}
+
 \end{figure}
 
 In 1965 Arno Penzias and Robert Wilson published the paper: \emph{A measurement of excess antenna temperature at
@@ -118,7 +119,7 @@ Finally, observations and statistical analysis showed that the CMB spectrum is c
 \centering
     \textbf{The Cosmic Microwave Background anisotropies measured by COBE, WMAP and Planck}\par\medskip
 \centering
-   {\includegraphics[width=.45\textwidth]{cobe_wmap_planck.jpg}}
+   {\includegraphics[width=.75\textwidth]{cmb1.jpg}}
 
 
 \caption{The COBE, WMAP and Planck missions measured the CMB anisotropies with increasing accuracy. COBE, the first CMB satellite, measured fluctuations to scales of 7$^\circ$. WMAP was able to measure resolutions down to 0.3$^\circ$ in five different frequency bands, with Planck measuring all the way down to just 5 arcminutes (0.07$^\circ$) in nine different frequency bands in total.  (NASA/COBE/DMR; NASA/WMAP SCIENCE TEAM; ESA AND THE PLANCK COLLABORATION)}
@@ -238,12 +239,31 @@ if a portion of photon-baryon fluid is in a potential well of the dark matter, i
 gravity compresses the photon-baryon fluid
 pressure starts to rise
 the pressure is sufficient to cause the fluid to expand outward
-the pressure drops until gravity causes the photon-baryon fluid to fall inward again
+the pressure drops until gravity causes the photon-baryon fluid to fall inward again\\
+Gravity tries to compress the fluid in potential wells.
+Photon pressure resists compression resulting in acoustic oscillations
+System is equivalent to a mass on a spring falling under gravity
+What is doing the pushing that compresses the fluid? Gravity.
+
+The photon-baryon fluid is sitting in the gravitational potential wells that are the seeds of structure in the universe.  As gravity tries to compress the fluid, radiation pressure resists resulting in acoustic oscillations.  Because it acts to resist compression, we will represent the radiation pressure abstractly as springs.  Likewise we will represent the inertia of the fluid, or loosely speaking its mass (really energy density), as massive balls falling under gravity:\\
+
+Modes caught at extrema of their oscillations become the peaks in the CMB power spectrum.  They form a harmonic series based on the distance sound can travel by recombination, called the sound horizon.  The first peak represents the mode that compressed once inside potential wells before recombination, the second the mode that compressed and then rarefied, the third the mode that compressed then rarefied then compressed, etc
+
+
 
 \subsection{Damping}
-The temperature fluctuations are damped due to collisions between the baryons and the photons that dissipate energy, and the expansion of the universe.
+The temperature fluctuations are damped due to collisions between the baryons and the photons that dissipate energy, and the expansion of the universe.\\
+The damping scale provides another standard ruler for the curvature test
+The physical scale of the damping depends on the baryon density through the mean free path
+And the matter density through the time available for the photons to random walk.
+If we can calibrate the distance CMB photons random walk during recombination, we have another standard ruler for the angular diameter distance test of the spatial curvature of the universe.  Remember that we measure its angular scale in the power spectrum itself.
 
+Alternatively, if we know the curvature of the universe we can infer the physical distance the photons travel.  In the standard model, the physical distance depends only on the baryon density and the dark matter density (matter-radiation ratio).  Since all three (curvature, baryons density and matter radiation) are measured by the positions and heights of the peaks themselves, the damping tail provides a beautiful consistency test for the standard model.
 
+Let's see how that works.
+
+Microphysically, the distance photons can travel is related to a random walk process.  Remember that the photons have a certain mean free path in the baryons defined as the average distance the photon travels before Thomson scattering off a free electron:\\
+Raising the number of baryons, decreases the mean free path and hence shortens the distance photons can travel at recombination.  Finally the full distance also depends on the amount of time the photons have to random walk and hence the age of the universe at recombination.  Remember that the age is determined by the dark matter density.  Mathematically, the length is roughly the geometric mean of the mean free path and the distance light can travel without obstruction (the horizon scale).
 \begin{comment}
     This text will not be displayed.
 
@@ -283,13 +303,108 @@ skip doppler effect
 
 
 \section{Comments on the results and plots of the CMB spectrum}
+We have seen in section 3 how general relativity and the density parameters  characterize the content of our Universe,  in section 4 the dynamics of the CMB photons is affected by matter.
+We want to link the previous theoretical results to the observations of the temperature fluctuations of the CMB sky.\\
+The spherical harmonics $Y^{m} _{l} (\theta, \phi)$ compose a set of orthonormal functions on the sky.\\
+So if $T(\theta,\phi)$ is the temperature at position $(\theta,\phi)$, it is possible to decompose the temperature into a series:
+\begin{equation}
+T(\theta, \phi) = \sum _{l, m} a_{lm} Y^{m} _l (\theta, \phi)
+\end{equation}
+Due to the orthonormality of the spherical harmonics
+\begin{equation}
+a_{lm} = \int _0 ^{2 \pi} \dd \phi \int _0  ^{\pi} \dd \theta \,
+\sin \theta \, T(\theta, \phi) \, Y^{m} _l (\theta, \phi)
+ \end{equation}
+ We define the power spectrum of the temperature map as 
+ \begin{equation}
+ C_l = \dfrac{1}{2l+1} \sum _{m=-l} ^{l} |a_{lm}|^2
+ \end{equation}
+The measured temperature power spectrum is shown in Figure(\ref{temp_pow_spect})
+%
+%
+%
+\begin{figure}
+\includegraphics[width=0.9\textwidth]{planck2018}
+\caption{Planck 2018 temperature power spectrum. $\mathcal{D}^{TT}_l = l(l+1)C_l$ (arXiv:1807.06209v1)}
+\label{temp_pow_spect}
+\end{figure}
+%
+%
+%
+The Sachs-Wolfe effect is dominant on large scales, i.e. small l.\\
+The first peak is at $l \approx 200$ and the  acoustic oscillations take place.
+The damping effect is evident for $l>10^{3}$.\\
+
+\subsection{Dark Energy and Curvature}
+
+Position of peaks mainly sensitive to curvature
+Shapes fixed by the physical density of matter and baryons
+Missing or "dark energy" plays a small roll in the position of peaks
+As advertised, the position of that first peak in the power spectrum of the anisotropies, and indeed all of the peaks, depend sensitively on the spatial curvature of the universe.   As the curvature of the universe decreases (and in fact becomes negative in the yellow curve below)\\
+the peaks move to smaller angles (higher multipole l) while preserving their shape.  Cosmologists fraction of the critical density in matter Omegam so that as 1-Omegamincreases from zero, the universe becomes increasingly negatively curved if there is no other forms of "missing energy" that we've missed in our accounting.
+
+Caveats:
+
+In the blue curve, we assume that there is indeed a form of "missing" or dark energy in a cosmological constant that makes the universe flat despite a sub-critical density of matter.  We see that the positions mainly care about the curvature of the universe but there is a small shift to larger angular scales (lower multipoles) through the introduction of a cosmological constant.  This is because the cosmological constant produces a small change in the distance light can travel since recombination, a fact that is related to its well known effect on the age of the universe. 
+
+Note that in the above figure we assume that the physical density of the matter (Omegamh2) is fixed.  This is different from saying its fraction of the critical density (Omegam) is fixed since the Hubble constant (h), or expansion rate today, enters into the definition of the critical density.  Given our current uncertainties about the physical density of the matter, the distance that sound can travel by recombination is currently uncertain, a fact related to the matter's effect on the age of the universe at recombination.  Likewise we have assumed that the physical density of the baryons  (Omegabh2) is fixed.  Baryons lower the speed of sound in the medium and hence also affect the distance sound can travel.  Luckily both of these quantities dramatically change the shape of the peaks as we shall see.  They will be measured once the higher peaks are detected and will no longer confuse the measurement of the curvature.   As it turns out, the sound horizon is not a standard ruler but rather a standardizeable ruler.
+\begin{figure}
+\begin{center}
+\includegraphics[width=\textwidth]{curvature_de}
+\caption{}
+
+\end{center}
+\label{DE_curv}
+\end{figure}
+
+\subsection{Dark Matter and Baryons}
+Baryons (or ordinary matter) load down the photon-baryon plasma and add inertial (and gravitational) mass to the oscillating system.
+
+Their effect on the acoustic peaks is easy to understand.  Remember what happens when you add mass to a spring and let it fall in the gravitational field of the Earth.  With more mass loading the spring, it falls further before pulled back by the spring.  On the other hand, it rebounds to the same position it started from. 
+
+Since the odd numbered (first, third, fifth...) acoustic peaks are associated with how far the plasma "falls" into gravitational potential wells (how much the plasma compresses), they are enhanced by an increase in the amount of baryons in the universe.   The even numbered peaks (second, fourth, sixth) are associated with how far the plasma "rebounds" (how much the plasma rarefies).  Thus with the addition of baryons the odd peaks are enhanced over the even peaks.  For example, baryons make the first acoustic peak much larger than the second.  The more baryons the more the second peak is relatively suppressed. 
+\par
+
+%http://background.uchicago.edu/~whu/intermediate/baryons2.html
+\paragraph{image}
+Power spectrum shows baryons enhance every other peak.
+Second peak is suppressed compared with the first and third
+Additional effects on the peak position and damping yield consistency checks
+When we do the full calculation of the power spectrum, the basic physics of a mass on the spring appears as advertised.   The odd numbered acoustic peaks in the power spectrum are enhanced in amplitude over the even numbered ones as we increase the baryon density of the universe.\\
+Note: Cosmologists label the baryon density in terms of its fraction of the critical density Wbtimes the Hubble constant squared (in units of 100 km/s/Mpc) to get something proportional to the physical density of the baryons.]
+
+There are two other related effects due to the baryons:  since adding mass to a spring slows the oscillation down, adding baryons to the plasma decrease the frequency of the oscillations pushing the position of the peaks to slightly higher multipoles l.
+
+Baryons also affect the way the sound waves damp and hence how the power spectrum falls off at high multipole moment lor small angular scales as we will see later.
+
+The many ways that baryons show up in the power spectrum imply that the power spectrum has many independent checks on the baryon density of the universe.  The baryon density is a quantity that the CMB can measure to exquisite precision.
+
+\paragraph{dark matter}
+Second peak is observed to be substantially lower than first peak
+Dark baryons of at least the big-bang nucleosynethesis density required
+Although we cannot yet claim that the second peak is as precisely measured as the first, we can say that (assuming it exists!) it is definitely of lower amplitude than the first:\\
+The current data indicate that the baryon density is around Omegabh2=0.02 This value is interesting since it is also the baryon density inferred from the abundance of deuterium at high redshift in quasar absorption lines and the theory of big-bang nucleosynthesis.  We now have an additional and independent line of evidence that there are missing baryons in the universe - i.e. that most the baryons are not in stars.   Once the second and higher peaks are definitively measured, CMB constraints on the baryon density will sharpen considerably (ultimately to a few percent accuracy).  Needless to say it will be interesting to see how these comparisons shape up as the data improve.
+\paragraph{dark}
+Raising the dark matter density reduces the overall amplitude of the peaks.
+Lowering the dark matter density eliminates the baryon loading effect so that a high third peak is an indication of dark matter.
+With three peaks, its effects are distinct from the baryons
+Measuring the dark matter density resolves the main ambiguity in the curvature measurement
+As advertised the acoustic peaks in the power spectrum are sensitive to the dark matter density in the universe.  (Formally, the matter to radiation ratio but the radiation density is fixed in the standard model.)\\
+As we raise the physical density of the dark matter, Wmh2, the driving effect goes away at a given peak such that its amplitude decreases.  Although this effect changes the heights of all the peaks, it is only separable from the baryonic effects with at least three peaks.  Note that decreasing the matter density also affects the baryon loading since the dark matter potential wells go away leaving nothing for the baryons to fall into. Having a third peak that is boosted to a height comparable to or exceeding the second peak is an indication that dark matter dominated the matter density in the plasma before recombination. Note that the self-gravity of the photons and baryons still plays a role in the first and second peaks so that the third peak is the cleanest test of this behavior.
+
+Notice also that the location of the peaks, and that of the first peak in particular, changes as we change the dark matter density.  The matter to radiation ratio also controls the age of the universe at recombination and hence how far sound can travel relative to how far light travels after recombination.  This is the leading order ambiguity in the measurement of the spatial curvature of the universe.  We see here that that ambiguity will be resolved when at least three peaks are precisely measured.
 
 
 
 
 
-
-
+\begin{figure}
+\begin{center}
+\includegraphics[width=\textwidth]{baryon_m}
+\caption{aa}
+\end{center}
+\label{DM_bar}
+\end{figure}
 \section{Conclusion}
 nn
 \citep{padmanabhanDetectingDarkMatter2005}
