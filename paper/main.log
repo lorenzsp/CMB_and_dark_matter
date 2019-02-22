@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  22 FEB 2019 15:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  22 FEB 2019 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1772,42 +1772,38 @@ Package pdftex.def Info: baryonspring.jpg used on input line 308.
 <planck2018.jpeg, id=160, 1150.2975pt x 778.91pt>
 File: planck2018.jpeg Graphic file (type jpg)
  <use planck2018.jpeg>
-Package pdftex.def Info: planck2018.jpeg used on input line 405.
+Package pdftex.def Info: planck2018.jpeg used on input line 406.
 (pdftex.def)             Requested size: 376.42575pt x 254.88988pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 421--422
-
- []
 
 [9 <./planck2018.jpeg>] <curvature_de.jpeg, id=169, 1202.4925pt x 651.43375pt>
 File: curvature_de.jpeg Graphic file (type jpg)
 
 <use curvature_de.jpeg>
-Package pdftex.def Info: curvature_de.jpeg used on input line 438.
+Package pdftex.def Info: curvature_de.jpeg used on input line 437.
 (pdftex.def)             Requested size: 418.25368pt x 226.58379pt.
- [10 <./curvature_de.jpeg>] [11]
-<baryon_m.jpeg, id=182, 1246.6575pt x 647.41875pt>
+ [10] [11 <./curvature_de.jpeg>]
+<baryon_m.jpeg, id=181, 1246.6575pt x 647.41875pt>
 File: baryon_m.jpeg Graphic file (type jpg)
  <use baryon_m.jpeg>
-Package pdftex.def Info: baryon_m.jpeg used on input line 488.
+Package pdftex.def Info: baryon_m.jpeg used on input line 487.
 (pdftex.def)             Requested size: 418.25368pt x 217.20522pt.
 
-(./main.bbl
+(./main.bbl [12 <./baryon_m.jpeg>]
 Overfull \hbox (71.15303pt too wide) in paragraph at lines 8--11
 []\OT1/cmr/m/n/10 Ryden[]IntroCosmo.pdf.  http://carina.fcaglp.unlp.edu.ar/extr
 agalactica/Bibliografia/Ryden[]IntroCosmo.pdf. 
  []
 
-[12 <./baryon_m.jpeg>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 501.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 500.
  [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 501.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 500.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 501.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 501.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 500.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 500.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 997053B9D4891435EBE4F2E4A616F814;688.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 501.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 500.
  ) 
 Here is how much of TeX's memory you used:
  14385 strings out of 493033
@@ -1816,7 +1812,7 @@ Here is how much of TeX's memory you used:
  17747 multiletter control sequences out of 15000+600000
  9537 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,19n,42p,10433b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,19n,42p,10433b,431s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -1834,7 +1830,7 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (13 pages, 1530116 bytes).
+Output written on main.pdf (13 pages, 1530353 bytes).
 PDF statistics:
  266 PDF objects out of 1000 (max. 8388607)
  219 compressed objects within 3 object streams
