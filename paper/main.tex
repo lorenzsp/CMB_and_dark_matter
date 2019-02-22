@@ -28,7 +28,8 @@
 
 % for comments
 \usepackage{verbatim}
-
+% wrapping figures
+\usepackage{wrapfig}
 
 %  ---- my commands -------
 \newcommand{\bea}{\setlength{\jot}{10pt}\begin{eqnarray*}}
@@ -202,7 +203,7 @@ In order to solve the system we need another equation: the equation of state $p 
 %
 % comment
 %\begin{comment}
-By using the conservation of energy momentum tensor $\nabla_\mu T^{\mu 0} =0 $ becomes:
+By using the conservation of energy momentum tensor $\nabla_\mu T^{\mu 0} =0 $ yields:
 \beq
 \label{energy_cons}
 \dv[]{}{t}\qty(\rho c^2 a^3) + p \dv[]{}{t} \qty(a^3)  = 0
@@ -273,9 +274,13 @@ n \propto T ^3 \rightarrow \dfrac{\delta n}{n_0} = 3 \Theta \qquad \qquad \qquad
  u \propto T^4  \qquad p  = \dfrac{u}{3} \rightarrow \dfrac{\delta u}{u_0} = 4 \Theta = \dfrac{\delta p}{p_0} \notag
 \end{equation}
 Solving the full general-relativistic description of the photon-matter fluid requires a long and complicated treatment [BAUMANN], so we use instead an analogy with the most favourite model of a physicist: the harmonic oscillator\footnote{As in every analogy in physics, the phenomena are not the same. A mass on a spring is not the same as a relativistic fluid perturbation in an expanding 4-dimensional manifold, but the analogy is very helpful for the understanding and the equations are not that different (in first approximation)}.\\
-All kinds of perturbations are proportional to the temperature fluctuations $\Theta$, so we  can associate the fluctuations to the displacement $x$ of spring-mass system. 
-The fluctuations of the primordial fluid can be characteried by a typical scale $\lambda =2 \pi /k$ of oscillation/propagation that could depends on the local gravitational pull, pressure or properties. 
-In addition, they are damped due to the expasion of the Universe and due to collisions, and ultimately they feel a constant gravitational pull from the overall fluid.
+All kinds of perturbations are proportional to the temperature fluctuations $\Theta$, so we  can associate the fluctuations to the displacement $x$ of spring-mass system from its equilibrium.
+Let us build the analogy.
+The fluctuations of the primordial fluid can be characterized by a typical scale $\lambda = 2 \pi /k$ of oscillation/propagation that could depends on the local gravitational pull, pressure or other properties.
+It is important to stress that $k$ is not a wavevector, but it acts as it was. 
+In fact, the $k$ parameter will represent the strength of the spring.
+If $k$ is small, the spring is loose and it  oscillates over large scales $\lambda$, analogously the oscillations of the fluctuations will have a large wavelength. \\ 
+In addition, fluctuations are damped due to the expasion of the Universe and due to collisions, and ultimately they feel a constant gravitational pull from the overall fluid.
 By analogy with the mass-spring system we analyze the fluctuations at different scales by solving the well known equation:
 \begin{equation}
 m\ddot{x} = - k x - \eta \dot{x} - m g \qquad \rightarrow \qquad \ddot{x} + 2 \gamma \dot{x} + \omega_k ^2 x + g =0
@@ -285,45 +290,44 @@ The general solution of the differential equation is
 \begin{equation}
 x = x_0 e^{i \, \omega t} - \dfrac{g \, m}{k} \qquad \qquad \omega = i \gamma \pm \sqrt{ \omega_k ^2 - \gamma^2}
 \end{equation}
-We will discuss how with this simple model we can obtain some of the features of the CMB power spectrum at different scales.
+We will discuss the overall behavior of the photon-baryon fluid at different scales $\lambda$ by studying the solutions of the harmonic oscillator for different $k$.
+
 
 \subsection{Sachs-Wolfe effect}
-In the harmonic oscillator model for very small $k$ the mass experiences only the gravitational pull of the overdensities $x \approx - g m/k$ and it does not oscillate.
-We can compare the x displacement of the spring with the size of the oscillation $\lambda$
-\[
-\dfrac{x}{\lambda} \approx -\dfrac{g m}{\lambda k} \dfrac{\lambda}{\lambda} = -\dfrac{g \lambda}{\lambda^2 \omega_k ^2}
-\]
-Notice that the numerator is the gravitational potential of a uniform field and the denominator is proportional to the speed of the oscillations.\\
+In the harmonic oscillator model for very small $k$ the mass experiences only the gravitational pull of the overdensities $x \approx - g m/k$ and it does not oscillate.\\
 In the photon-baryon fluid, perturbation modes of very large scales (large $\lambda$, very small $k$) do not have the time to complete an entire oscillation before recombination and they are influenced only by the gravitational potential of the overdensities.
 As a consequence of the Einstein's equivalence principle, photons that escape from a gravitational field are redshifted.
 If we consider the fluctuations of the CMB on large scales, the photons that tries to escape from the gravitational well created by matter are redshifted according to the so-called Sachs-Wolfe effect. 
 The theoretical result from the relativistic derivation gives a temperature fluctuation $\Theta = -\delta \Phi /(3c^2)$.
 The Sachse Wolfe effect takes into account an additional effect that cannot be explained with the simple harmonic oscillator model and it arises from the time dilation due to the expansion of the Universe.
 
-\subsection{Acoustic oscillations}
-At the time of recombination
-Dark Matter is randomly distributed
-if a portion of photon-baryon fluid is in a potential well of the dark matter, it will fall to the center of the well
-gravity compresses the photon-baryon fluid
-pressure starts to rise
-the pressure is sufficient to cause the fluid to expand outward
-the pressure drops until gravity causes the photon-baryon fluid to fall inward again\\
-Gravity tries to compress the fluid in potential wells.
-Photon pressure resists compression resulting in acoustic oscillations
-System is equivalent to a mass on a spring falling under gravity
-What is doing the pushing that compresses the fluid? Gravity.
-
-The photon-baryon fluid is sitting in the gravitational potential wells that are the seeds of structure in the universe.  As gravity tries to compress the fluid, radiation pressure resists resulting in acoustic oscillations.  Because it acts to resist compression, we will represent the radiation pressure abstractly as springs.  Likewise we will represent the inertia of the fluid, or loosely speaking its mass (really energy density), as massive balls falling under gravity:\\
-
-Modes caught at extrema of their oscillations become the peaks in the CMB power spectrum.  They form a harmonic series based on the distance sound can travel by recombination, called the sound horizon.  The first peak represents the mode that compressed once inside potential wells before recombination, the second the mode that compressed and then rarefied, the third the mode that compressed then rarefied then compressed, etc
-
-
-
-\subsection{Damping}
+\subsection{Acoustic Oscillations and Damping}
+\begin{wrapfigure}{r}{6cm}
+\centering
+%\begin{figure}
+\includegraphics[scale=0.5]{baryonspring}
+%\end{figure}
+\end{wrapfigure}
+Let us consider again the harmonic oscillator model in the case of $\omega_k > \gamma$, small scales where $k$ is big "enough".
+The respective solutions are of the form of the damped harmonic oscillator with a shift of $-gm/k$
+\[
+x = x_0 e^{-\gamma t} e^{\pm i \sqrt{\omega_k ^2 - \gamma ^2} \, t} - \dfrac{g m}{k}
+\]
+Before recombination, the perturbations of the photon-baryon fluid behaves analogously to the damped harmonic oscillator.\\
+During matter dominated era, overdensities of dark matter creates gravitational well where the photon baryon-fluid falls in.
+As a consequence the gravitational potential compresses the baryon-photon fluid and the pressure starts to rise.
+Since dark matter and baryonic matter are pressureless, the system accretes until the photon pressure causes the fluid to expand outward.\\
+The process of compression and expansion gives rise to sound waves and it goes on until recombination.
+Only the fluctuations that are caught at the extrema of their oscillations will become peaks in the CMB power spectrum.
+Modes caught at the extrema form a harmonic series based on the distance sound can travel by recombination.
+The first peak represents the mode that compressed once inside potential wells before recombination, the second the mode that compressed and then rarefied, the third the mode that compressed then rarefied then compressed, etc. exactly as a spring!
+The radiation pressure acts as a spring, whereas the inertia of the fluid as the mass of the ball.\\
 The temperature fluctuations are damped due to collisions between the baryons and the photons that dissipate energy, and the expansion of the universe.\\
-The damping scale provides another standard ruler for the curvature test
+%The damping scale provides another standard ruler for the curvature test
 The physical scale of the damping depends on the baryon density through the mean free path
-And the matter density through the time available for the photons to random walk.
+%And the matter density through the time available for the photons to random walk.
+
+\begin{comment}
 If we can calibrate the distance CMB photons random walk during recombination, we have another standard ruler for the angular diameter distance test of the spatial curvature of the universe.  Remember that we measure its angular scale in the power spectrum itself.
 
 Alternatively, if we know the curvature of the universe we can infer the physical distance the photons travel.  In the standard model, the physical distance depends only on the baryon density and the dark matter density (matter-radiation ratio).  Since all three (curvature, baryons density and matter radiation) are measured by the positions and heights of the peaks themselves, the damping tail provides a beautiful consistency test for the standard model.
@@ -332,7 +336,10 @@ Let's see how that works.
 
 Microphysically, the distance photons can travel is related to a random walk process.  Remember that the photons have a certain mean free path in the baryons defined as the average distance the photon travels before Thomson scattering off a free electron:\\
 Raising the number of baryons, decreases the mean free path and hence shortens the distance photons can travel at recombination.  Finally the full distance also depends on the amount of time the photons have to random walk and hence the age of the universe at recombination.  Remember that the age is determined by the dark matter density.  Mathematically, the length is roughly the geometric mean of the mean free path and the distance light can travel without obstruction (the horizon scale).
-\begin{comment}
+%
+%
+%
+%
     This text will not be displayed.
 
  by starting from the continuity and Euler equation for a photon fluid with  number density $n$, energy density $u$ and pressure $p$:
@@ -368,24 +375,28 @@ skip doppler effect
 
 
 \section{Comments on the results and plots of the CMB spectrum}
-We have seen in section 3 how general relativity and the density parameters  characterize the content of our Universe,  in section 4 the dynamics of the CMB photons is affected by matter.
-We want to link the previous theoretical results to the observations of the temperature fluctuations of the CMB sky.\\
-The temperature fluctuations are projected in the sky map and they appear to us as anisotropies in the sky map tempearature.
-
-The spherical harmonics $Y^{m} _{l} (\theta, \phi)$ compose a set of orthonormal functions on the sky.\\
-So if $T(\theta,\phi)$ is the temperature at position $(\theta,\phi)$, it is possible to decompose the temperature into a series:
+The four density parameters $\Omega$ encode the energy-matter content of the Universe and they determine the evolution of space-time through the Friedmann equations. 
+In section 4 we have outlined how we expect matter to behave at large and small scales.
+We want now to link the information contained in the fluctuations of the CMB photons to the density parameters.\\
+The behavior of the primordial plasma is imprinted in the CMB photons, in fact, we observe the density fluctuations as anisotropies in the sky map tempearature.
+In order to relate the fluctuations at different scales and the deviations from the average temperature $2.7$ K on the CMB map, it is necessary to decompose the temperature deviation $T(\theta, \phi)$ into a set of orthonormal functions on the sky.
+The spherical harmonics $Y^{m} _{l} (\theta, \phi)$ are suitable for this.\\
+So if $T(\theta,\phi)$ is the temperature at position $(\theta,\phi)$ on the sky map,
+we can write:
 \begin{equation}
 T(\theta, \phi) = \sum _{l, m} a_{lm} Y^{m} _l (\theta, \phi)
 \end{equation}
-Due to the orthonormality of the spherical harmonics
+Due to the orthonormality of the spherical harmonics, we obtain the coeaficients:
 \begin{equation}
 a_{lm} = \int _0 ^{2 \pi} \dd \phi \int _0  ^{\pi} \dd \theta \,
-\sin \theta \, T(\theta, \phi) \, Y^{m} _l (\theta, \phi)
+\sin( \theta) \, T(\theta, \phi) \, Y^{m} _l (\theta, \phi)
  \end{equation}
- We define the power spectrum of the temperature map as 
+We define the power spectrum of the temperature map as 
  \begin{equation}
  C_l = \dfrac{1}{2l+1} \sum _{m=-l} ^{l} |a_{lm}|^2
  \end{equation}
+Since $l \sim 1/ \theta$, for small $l$ we are considering big scales of the sky map, viceversa for big $l$.
+As we consider increasing $l$ we are looking at fluctuations in the primordial plasma that have a decreasing  scale and thus wavelength.\\
 The measured temperature power spectrum is shown in Figure(\ref{temp_pow_spect})
 %
 %
@@ -398,8 +409,15 @@ The measured temperature power spectrum is shown in Figure(\ref{temp_pow_spect})
 %
 %
 %
-The Sachs-Wolfe effect is dominant on large scales, i.e. small l.\\
-The first peak is at $l \approx 200$ and the  acoustic oscillations take place.
+For large scales, small $l<30$, the power spectrum is constant and oscillations do not take place.
+Therefore, the Sachs-Wolfe effect is dominant on large scales where the oscillations have too large wavelength to complete an entire oscillations before recombination and they experience mainly the gravitational redshift.\\
+For large $l$ the acoustic oscillations are dominant.
+The first peak is at $l \approx 200$ approximately $1 ^o$ on the sky, it represents how the tiny variations in the fluid density gave rise to a sound wave which collapsed exactly at the time of recombination.
+The position of the peak tells us at which scale the first total compression of the primordial plasma happened.
+The second peak is linked to the maximal rarefaction of the plasma, so the position of the second peak tells us how the 
+
+
+
 The damping effect is evident for $l>10^{3}$.\\
 
 \subsection{Dark Energy and Curvature}
