@@ -25,6 +25,7 @@
 % for twnsore
 \usepackage{tensind}
 \tensordelimiter{:}
+\usepackage{stackengine}
 
 % for comments
 \usepackage{verbatim}
@@ -65,9 +66,10 @@ The fluctuations are extremely important because they contain the crucial inform
 In fact, during the early stages of the Universe, the photons were interacting with baryonic matter, which in turn was interacting gravitationally with dark matter.
 Thus, the observations of the CMB fluctuations are linked to the energy-matter content of our Universe and to dark matter.\\
 The aim of this paper is to give a short and concise overview of the physics of the CMB and the cosmological evidence of Dark Matter through the analysis of the CMB fluctuations within the $\Lambda$CDM model assumptions.\\
-We first give an historical overview of the discovery and measurements of the CMB, then we discuss the main assumptions of the $\Lambda$CDM model and the link between the content of our universe and the cosmological model. 
-Then, the physics of the hot plasma is explained with a simplified treatment in order to explain the main features of the power spectrum of the CMB.
-We conclude with the discussion of the CMB temperature power spectrum and the role of dark matter.
+We first give an historical overview of the discovery and measurements of the CMB, then we discuss the main assumptions of the $\Lambda$CDM model and the link between the energy-matter content of the Universe and the cosmological model. 
+Afterwards, the physics of the primordial plasma is explained through an analogy with a spring-mass system.
+In section 5 we explain how the phenomena in the primordial plasma are reflected in the measured temperature power spectrum of the CMB.
+Lastly, we discuss how the different energy-matter components influence the CMB power spectrum and we conclude that dark matter is one of the leading constituents of the universe.
 
 
 %The recent measurements of the Cosmic Microwave Background (CMB) radiation allowed us to infer the presence of Dark Matter in the Universe. In this summary we will explain qualitatively how the presence of Dark Matter influences the CMB anisotropies.
@@ -87,27 +89,28 @@ We conclude with the discussion of the CMB temperature power spectrum and the ro
 %
 %
 %
-In the 1960s Penzias and Wilson measured an isotropic and constant with time strong signal coming from the sky by using a horn-reflector radio antenna (Figure(\ref{antenna})). 
+In the 1960s Penzias and Wilson measured an isotropic and constant with time strong signal coming from the sky by using a horn-reflector radio antenna shown in Figure(\ref{antenna}). 
 They tried everything they could do to reduce the “noise” in their system, but the signal remained.\\
-In 1965 Arno Penzias and Robert Wilson published the paper: \emph{A measurement of excess antenna temperature at
+In 1965 Penzias and Wilson published the paper: \emph{A measurement of excess antenna temperature at
 4080 Mc/s}, where they reported the measurements of an isotropic, unpolarized, and free from seasonal variations excess noise temperature
 \citep{penziasMeasurementExcessAntenna1965}.
-The explanation of that signal was given by Robert Dicke and his research group at Princeton University: such signal as the relic of an early, hot, dense, and opaque state of the universe\footnote{The existence of the cosmic background radiation had actually been predicted by the physicist George Gamow and his colleagues in 1948} \citep{bucherPhysicsCosmicMicrowave2015}
+The explanation of that signal was given by Robert Dicke and his research group at Princeton University: Penzias and Wilson discovered the relic of an early, hot, dense, and opaque state of the universe\footnote{The existence of the cosmic background radiation had actually been predicted by the physicist George Gamow and his colleagues in 1948} \citep{bucherPhysicsCosmicMicrowave2015}
 . \\
 The discovery of the CMB created a big excitement and a new era of cosmology began.
 Measuring the CMB spectrum and its deviation from the black body spectrum was the new challenge.
 \\
 First of all, the photons of the CMB can be absorbed by the Earth's atmosphere, because the energy per CMB photon (approximately $\sim 6 \times 10 ^{-4}$ eV) is comparable to the energy of vibration or rotation for a small molecule (of water for instance). 
 In fact, microwaves with wavelengths shorter than $\lambda \sim 3$ cm are strongly absorbed by water molecules \citep{RydenIntroCosmoPdf}.
-This problem could be overcomed by observing the CMB in different bands and from locations where the atmospheric humidity is low, at high altitudes and at low temperatures.
-However, the best way to measure the CMB spectrum is to use satellites.\\
-The first satellite that was launched to observe the CMB was COBE. 
+This problem could be overcome by observing the CMB in different bands and from locations where the atmospheric humidity is low, at high altitudes and at low temperatures.
+However, any terrestrial experiment would be able to measure only a portion of the sky map and would be affected by Earth's atmosphere, so the best way to measure the CMB spectrum is to use satellites.\\
+COBE was the first satellite launched to measure the CMB in 1989. 
 It did provide a convincing first detection of the CMB anisotropy, and it played a crucial role in determining the viability of the different cosmological models at that time.
 \\
-After that, WMAP and PLanck space missions  increased the accuracy of the measurements Figure (\ref{cobe_wmap_planck}).\\
-The COBE, WMAP and Planck missions measured the CMB anisotropies with increasing accuracy. COBE, the first CMB satellite, measured fluctuations to scales of 7$^\circ$. WMAP was able to measure resolutions down to 0.3$^\circ$ in five different frequency bands, with Planck measuring all the way down to just 5 arcminutes (0.07$^\circ$) in nine different frequency bands in total.\\
+After COBE, WMAP and Planck satellites measured the CMB anisotropies with increasing accuracy  Figure (\ref{cobe_wmap_planck}).\\
+COBE measured fluctuations to scales of 7$^\circ$, WMAP was able to measure resolutions down to 0.3$^\circ$ in five different frequency bands, and Planck measured all the way down to just 5 arcminutes (0.07$^\circ$) in nine different frequency bands in total.\\
 Nevertheless the satellites improved their accuracy, many other sources of noise were encountered such as the light coming from the center of our galaxy, other stars and other objects in the universe, in addition to the relative motion of the satellite with respect to the CMB (Figure (\ref{cobe_map})).\\ 
 Finally, observations and statistical analysis showed that the CMB spectrum is close to a black body spectrum up to fluctuations of order of $10^{-5}$ K (Figure (\ref{cobe_blackbody})).\\
+The technological efforts for precisely measuring the fluctuations of the CMB was a fundamental step-stone to understand what the universe is made of.
 % maybe last sentence in the introduction with the image
 
 \begin{figure}[h]
@@ -115,7 +118,7 @@ Finally, observations and statistical analysis showed that the CMB spectrum is c
     \textbf{Cosmic Microwave Background  Spectrum}\par\medskip
 \centering
    {\includegraphics[height=7cm]{blackbody}}
-\caption{}
+\caption{The monopole spectrum of the Cosmic Microwave Background Radiation using the original data set by the FIRAS team, available at \url{http://lambda.gsfc.nasa.gov/product/cobe/firas_monopole_get.cfm}. The vertical axis "MJy/sr" corresponds to $10^6$ jansky per steradian, where a jansky is $10^{-26}$ Watts per square-meter per Hertz. The horizontal axis ("1/cm") corresponds to the reciprocal of the microwave wavelength (in cm), which is proportional to the microwave frequency. The error bars are too small to be displayed by a computer screen, but vastly exaggerated error bars were included to show the measured data points.}
 \label{cobe_blackbody}
 \end{figure}
 
@@ -137,7 +140,7 @@ Finally, observations and statistical analysis showed that the CMB spectrum is c
     \textbf{The CMB sky measured by COBE}\par\medskip
 \centering
 \includegraphics[scale =0.3]{mono_di_cobe}
-\caption{The microwave sky as seen by the COBE DMR (differential microwave radiometer) instrument. The top panel shows the microwave sky as seen on a linear temperature scale including zero. No anisotropies are visible in this image, because the CMB monopole at 2.725K dominates. In the middle panel, the monopole component has been subtracted. Apart from some slight contamination from the galaxy near the equator (corresponding to the plane of our Galaxy), one sees only a nearly perfect dipole pattern, owing to our peculiar motion with respect to the rest frame defined by the CMB. In the bottom panel, both the monopole and dipole components have been removed. Except for the galactic contamination around the equator, one sees the cosmic microwave background anisotropy along with some noise. (Credit: NASA/COBE Science Team)}
+\caption{The microwave sky as seen by the COBE DMR (differential microwave radiometer) instrument. The top panel shows the microwave sky as seen on a linear temperature scale including zero. No anisotropies are visible in this image, because the CMB monopole at 2.725K dominates. In the middle panel, the monopole component has been subtracted. Apart from some slight contamination from the galaxy near the equator (corresponding to the plane of our Galaxy), one sees only a nearly perfect dipole pattern, owing to our peculiar motion with respect to the rest frame defined by the CMB. In the bottom panel, both the monopole and dipole components have been removed. Except for the galactic contamination around the equator, one sees the CMB anisotropy along with some noise \cite{bucherPhysicsCosmicMicrowave2015}. (Credit: NASA/COBE Science Team)}
 \label{cobe_map}
 \end{figure}
 
@@ -145,23 +148,27 @@ Finally, observations and statistical analysis showed that the CMB spectrum is c
 
 
 \section{Energy-Matter Content of the Universe} 
-It is often said that our Universe is made up of $68.8$\% of Dark Energy, and $26.8 $\% by Dark Matter and $4.9 $\% of ordinary matter, but what do we really mean by that?\\
-In this section we explain the meaning of these parameters and what is Universe made up of. 
-The assumptions and the theoretical framework that we are going to explain will be then used to analyze the observations of the CMB.\\
+It is often said that the Universe we live in is flat and it is made up of $69$\% of Dark Energy, and $26 $\% by Dark Matter and $5$\% of ordinary matter, but what do we really mean by that?\\
+In this section we explain the meaning of these parameters and from which theoretical framework they come from. 
+We are going to use the assumptions of the so-called $\Lambda$CDM model.\\
 We assume that the observable properties of the Universe are isotropic and there is not a preferred direction. 
 Therefore, the Universe is assumed to be homogeneous and isotropic at enough large scales $> 100$ Mpc, at least up to the observable universe.\\
-Another important assumption is that there exists a class of observers at rest with respect to the Cosmic Microwave Background \citep{bartelmannStandardModelCosmology}.
+Another important assumption is that there exists a class of observers at rest with respect to the Cosmic Microwave Background such that the previous assumptions are valid \citep{bartelmannStandardModelCosmology}.
 Let us clarify this concept.
 The CMB appears as an homogeneous map at temperature $T=2.7$ K as shown in the first panel of Figure(\ref{cobe_map}).
 After subtracting the average temperature of the CMB from its spectrum, a moving observer with respect with the CMB will see a dipole pattern, where the blue-shifted photons come from the direction the observer is moving toward to and the red-shifted photons from the opposite direction.
-Since Earth is not at rest with respect to the CMB, the satellite COBE measured the dipole pattern showed in the second panel in Figure (\ref{cobe_map}).\\
-In addition we assume that space-time is described by a metric theory of gravity, and we treat space-time as a 4-dimensional manifold characterized by the metric tensor $g_{\mu \nu}$.
+Since Earth is not at rest with respect to the CMB, the satellite COBE measured the dipole pattern showed in the second panel in Figure (\ref{cobe_map}).
+And therefore from an observer on Earth the Universe is not isotropic.
+In the following sections we consider only those observers which are at rest with respect to the Cosmic Microwave Background.\\
+In addition we assume that spacetime is described by a metric theory of gravity, and we treat spacetime as a 4-dimensional manifold characterized by the metric tensor $g_{\mu \nu}$.
 The most general metric $g_{\mu \nu}$ satisfying homogeneity and isotropy assumptions is the Friedmann – Lemaître – Robertson – Walker (FLRW) metric written here in terms of the invariant geodesic distance $\dd s ^2 = g_{\mu \nu} \dd x^{\mu} \dd x^{\nu}$:
 \begin{equation}
 \label{metric}
 \dd s ^2 = -c ^2 \dd t^2 + a^2 (t) \qty( \frac{1}{1-k \, r^2} \dd r^2 + r^2 \dd \Omega ^2 )  
 \end{equation}
-where $k$ is the space curvature and it determines the geometry of the spatial dimensions, elliptical, Euclidean or hyperbolic for $k>0$, $k=0$ or $k<0$.
+By defining $g_{\mu \nu}$ we are basically  defining how time and space intervals are measured.
+Spacetime is treated as a manifold because it shares the property with manifolds to be locally flat\footnote{locally flat means  that locally it appears as the Minkowski spacetime}.\\
+$k$ is the space curvature and it determines the geometry of the spatial dimensions, elliptical, Euclidean or hyperbolic for $k>0$, $k=0$ or $k<0$.
 The space curvature determines in which kind of three dimensional space we live in and how angles are measured.\\
 The scale factor $a(t)$ determines how the distances scale with the evolution of the Universe.
 The propagation condition of light is $ds^2 =0$, which implies that the light with frequency $\nu$ and the wavelength $\lambda$ is red- or blue-shifted by the same amount as space expands or shrinks:
@@ -184,7 +191,7 @@ The most general fluid consistent with the assumption of homogeneity and isotrop
 T^{\mu \nu } = (p + \rho c^2)u ^{\mu} u^{\nu}+p g^{\mu \nu} 
 \end{equation}
 where $\rho$ and $p$ are, respectively, the mass density and the pressure of the fluid.\\
-Solving (\ref{einstein_eq})and using the above definition (\ref{energy-momentum-tensor}) (which is a rather long and tedious derivation), gives us the Friedmann equation:
+Solving (\ref{einstein_eq}) and using the above definition (\ref{energy-momentum-tensor}) (which is a rather long and tedious derivation), gives us the Friedmann equations:
 \begin{equation}
 \label{firedmann_eq}
 \begin{split}
@@ -194,7 +201,7 @@ H^2 = \qty(\frac{\dot{a}}{a})^2 &= \dfrac{8 \pi G}{3} \rho -\dfrac{k \, c^2}{a^2
 \end{split}
 \end{equation}
 where  $\dot{}$  represents the time derivative.\\
-The first Friedmann equation tells us how the Hubble parameter$H(t)$, i.e. the expansion rate,  evolves according to what is contained in our Universe.
+The first Friedmann equation tells us how the Hubble parameter $H(t)$, i.e. the expansion rate,  evolves according to what is contained in our Universe.
 The second Friedmann equation tells how the Universe accelerates.\\
 In order to solve the system we need another equation: the equation of state $p = w \rho$ that relates the the pressure and the mass density.\\
 %
@@ -222,7 +229,7 @@ Solving for radiation $\rho c^2 = p/3$
  \dot{\rho}  + 3 \frac{ \dot{a}}{a} \rho =0
  \]
  \end{comment}
-Solving this for dust (a name for non-relativistic matter) $\rho_m c^2 << p_m$ and for radiation $\rho_r c^2 = p_r/3$ gives
+Solving this for dust, i.e. non-relativistic matter, $\rho_m c^2 << p_m$ and for radiation $\rho_r c^2 = p_r/3$ gives
 \begin{equation}
 \begin{split}
 \rho_m = \rho_{m 0} a^{-3} \hspace{1.5cm} \rho_r = \rho_{r 0} a^{-4} \notag
@@ -230,7 +237,7 @@ Solving this for dust (a name for non-relativistic matter) $\rho_m c^2 << p_m$ a
 \end{equation}
 where $\rho_{m 0}$ and $\rho_{r 0}$ are the matter density and radiation density evaluated today $t = t_0$, $a(t_0) = a_0 =1$.
 The above result is somehow intuitive because the normal non-relativistic matter is "diluted" as the the spatial distances $a^3$  increase with the expansion of the Universe, i.e. the number of particles per unit volume decreases with the expansion.
-The energy density of radiation $u = \rho_r c^2 $ decreases with the power of four because photons experience not only the dilution due to the spatial expansion but their frequencies, accordingly their energies, decreased by the stretching of spacetime.\\
+The energy density of radiation $u = \rho_r c^2 $ decreases with the power of four because photons experience not only the dilution due to the spatial expansion but their frequencies, accordingly their energies, decrease by the stretching of spacetime.\\
 We now rewrite the first Friedmann equation as
 \begin{equation}
 H ^2 = H_0 ^2 \qty[
@@ -255,7 +262,7 @@ If we define the density parameters as:
 \Omega_{\Lambda 0} + \Omega_{m 0} + \Omega_{k 0} + \Omega_{r 0} = 1
 \end{equation}
 So the experimental measurements of these parameters must add up to one.
-We will see in the next sections how the CMB power spectrum puts constraints on these parameters and tell use that there is a form of matter that we cannot wee.
+We will see in the next sections how the CMB power spectrum puts constraints on these parameters and tell us that there is a form of matter that we cannot see in $\Omega_{m0}$.
 
 
 
@@ -264,15 +271,15 @@ We will see in the next sections how the CMB power spectrum puts constraints on 
 
 \section{Phenomenology of the Fluctuations}
 The Cosmic Microwave Background fluctuations were produced when radiation and matter were interacting in the early stage of the Universe.
-Before the release of the CMB at $z > 1100$ the electromagnetic radiation is firmly coupled (both energetically and kinetically) to the baryons.
-The behavior of such a system can be solved by using the equations of relativistic hydrodynamics and the Einstein's field equations (\ref{einstein_eq}) with small perturbations of density $\delta \rho$, pressure $\delta p$ and gravitational potential  $\delta \Phi$.
+Before the release of the CMB at redshift $z > 1100$ the electromagnetic radiation is firmly coupled (both energetically and kinetically) to the baryons.
+The behavior of such a system can be studied by solving the equations of relativistic hydrodynamics and the Einstein's field equations (\ref{einstein_eq}) with small perturbations of density $\delta \rho$, pressure $\delta p$ and gravitational potential  $\delta \Phi$.
 Perturbations of different scales propagate as sound waves through the plasma until they are frozen at the time of recombination and they appear to us as temperature fluctuations $\Theta = \delta T /T$ in the CMB map.
 For a photon gas we know that the temperature fluctuations are related to the number density $n$, energy density $u = \rho c^2$ and pressure $p$ as follow:
 \begin{equation}
 n \propto T ^3 \rightarrow \dfrac{\delta n}{n_0} = 3 \Theta \qquad \qquad \qquad
  u \propto T^4  \qquad p  = \dfrac{u}{3} \rightarrow \dfrac{\delta u}{u_0} = 4 \Theta = \dfrac{\delta p}{p_0} \notag
 \end{equation}
-Solving the full general-relativistic description of the photon-matter fluid requires a long and complicated treatment \cite{LecturesPdf}, so we use instead an analogy with the most favourite model of a physicist: the harmonic oscillator\footnote{As in every analogy in physics, the phenomena are not the same. A mass on a spring is not the same as a relativistic fluid perturbation in an expanding 4-dimensional manifold, but the analogy is very helpful for the understanding and the equations are not that different (in first approximation)}.\\
+Solving the full general-relativistic description of the photon-matter fluid requires a long and complicated treatment that can be found here \cite{LecturesPdf,keskitaloEffectMatterBaryon}. We use instead an analogy with the most favourite model of a physicist: the harmonic oscillator\footnote{As in every analogy in physics, the phenomena are not the same. A mass on a spring is not the same as a relativistic fluid perturbation in an expanding 4-dimensional manifold, but the analogy is very helpful for the understanding and the equations are not that different (in first approximation)}.\\
 All kinds of perturbations are proportional to the temperature fluctuations $\Theta$, so we  can associate the fluctuations to the displacement $x$ of spring-mass system from its equilibrium.
 Let us build the analogy.
 The fluctuations of the primordial fluid can be characterized by a typical scale $\lambda = 2 \pi /k$ of oscillation/propagation that could depends on the local gravitational pull, pressure or other properties.
@@ -289,44 +296,58 @@ The general solution of the differential equation is
 \begin{equation}
 x = x_0 e^{i \, \omega t} - \dfrac{g \, m}{k} \qquad \qquad \omega = i \gamma \pm \sqrt{ \omega_k ^2 - \gamma^2}
 \end{equation}
-We will discuss the overall behavior of the photon-baryon fluid at different scales $\lambda$ by studying the solutions of the harmonic oscillator for different $k$.
+We will discuss the overall behavior of the photon-baryon fluid fluctuations with different scales $\lambda$ by studying the solutions of the damped harmonic oscillator for different $k$.
 
 
 \subsection{Sachs-Wolfe effect}
 In the harmonic oscillator model for very small $k$ the mass experiences only the gravitational pull of the overdensities $x \approx - g m/k$ and it does not oscillate.\\
 In the photon-baryon fluid, perturbation modes of very large scales (large $\lambda$, very small $k$) do not have the time to complete an entire oscillation before recombination and they are influenced only by the gravitational potential of the overdensities.
-As a consequence of the Einstein's equivalence principle, photons that escape from a gravitational field are red-shifted.
-If we consider the fluctuations of the CMB on large scales, the photons that tries to escape from the gravitational well created by matter are red-shifted according to the so-called Sachs-Wolfe effect. 
-The theoretical result from the relativistic derivation gives a temperature fluctuation $\Theta = -\delta \Phi /(3c^2)$.
-The Sachse Wolfe effect takes into account an additional effect that cannot be explained with the simple harmonic oscillator model and it arises from the time dilation due to the expansion of the Universe.
+As a consequence of the Einstein's equivalence principle, photons that escape from a gravitational field are red-shifted, photons that fall into a gravitational field are blue-shifted.
+Photons associated with fluctuations with large $\lambda$ try to escape from the gravitational well created by matter at the time of recombination and, therefore, they are red-shifted.
+A photon which happens to be at a potential maximum when the universe became transparent gains energy as it falls down the “potential hill”, and thus is blue-shifted.
+A detailed general relativistic calculation gives a temperature fluctuation $\Theta = -\delta \Phi /(3c^2)$.
+This is called the Sachs-Wolfe effect.
+The Sachs-Wolfe effect takes into account an additional effect that cannot be explained with the simple harmonic oscillator model and it arises from the time dilation due to the expansion of the Universe.
+%
+%
+%
+%\begin{wrapfigure}{r}{4cm}
 
-\subsection{Acoustic Oscillations and Damping}
-\begin{wrapfigure}{r}{6cm}
+\begin{figure}
 \centering
-%\begin{figure}
-\includegraphics[scale=0.5]{baryonspring}
-%\end{figure}
-\end{wrapfigure}
-Let us consider again the harmonic oscillator model in the case of $\omega_k > \gamma$, small scales where $k$ is big "enough".
+\includegraphics[scale=0.4]{baryonspring}
+\caption{Analogy between the photon-baryon fluid and the spring-mass system. (Credit: \cite{huweb})}
+\label{baryon_spring}
+\end{figure}
+%\end{wrapfigure}
+%
+%
+%
+\subsection{Acoustic Oscillations and Damping}
+
+Let us consider the harmonic oscillator model in the case of $\omega_k > \gamma$, small scales where $k$ is big "enough".
 The respective solutions are of the form of the damped harmonic oscillator with a shift of $-gm/k$
 \[
 x = x_0 e^{-\gamma t} e^{\pm i \sqrt{\omega_k ^2 - \gamma ^2} \, t} - \dfrac{g m}{k}
 \]
 Before recombination, the perturbations of the photon-baryon fluid behaves analogously to the damped harmonic oscillator.
-The mass that elongates the spring and falls down is analogues to the fluid falling and compressing inside a gravitational potential.\\
+The mass elongates the spring and it falls down as the photon-baryon fluid falls into a gravitational potential and it is compressed (Figure(\ref{baryon_spring})).\\
 During matter dominated era, overdensities of dark matter creates gravitational well where the photon baryon-fluid falls in.
-As a consequence the gravitational potential compresses the baryon-photon fluid and the pressure starts to rise.
+As a consequence, the gravitational potential compresses the baryon-photon fluid and the pressure starts to rise.
 Since dark matter and baryonic matter are pressureless, the system accretes until the photon pressure causes the fluid to expand outward.\\
 The process of compression and expansion gives rise to sound waves and it goes on until recombination.
+The inward and outward oscillations of the photon-baryon fluid are called acoustic oscillations, since they represent a type of standing sound wave in the photon-baryon fluid\cite{RydenIntroCosmoPdf}.\\
 Only the fluctuations that are caught at the extrema of their oscillations at recombination will become peaks in the CMB power spectrum.
 Modes caught at the extrema form a harmonic series based on the distance sound can travel by recombination.
-The first peak of the oscillations represents the mode that compressed the fluid inside potential wells before recombination only once, the second one represents the mode that compressed and then rarefied, the third one the mode that compressed then rarefied then compressed, etc. exactly as a spring!
+The first peak of the oscillations represents the mode that compressed the fluid inside potential wells before recombination only once, the second one represents the mode that compressed and then rarefied, the third one the mode that compressed then rarefied then compressed, etc. exactly as a spring!\\
 The radiation pressure acts as a spring, whereas the inertia of the fluid as the mass of the ball.
 Only the compression phase is influenced by the inertia of the fluid, i.e. if the mass is heavier the displacement will be bigger $-gm/k$.
 \\
-The temperature fluctuations are damped due to collisions between the baryons and the photons that dissipate energy, and the expansion of the universe.\\
+The particles of the photon-baryon fluid experience also collisions and this leads to a damping effect on the oscillations.
+The physical scale of the damping depends on the baryon and photon density through the mean free path.
+An additional damping effect comes from the expansion of the Universe.
 %The damping scale provides another standard ruler for the curvature test
-The physical scale of the damping depends on the baryon density through the mean free path
+
 %And the matter density through the time available for the photons to random walk.
 
 \begin{comment}
@@ -379,7 +400,7 @@ skip doppler effect
 \section{Comments on the results and plots of the CMB spectrum}
 We have outlined how we expect matter to behave at large and small scales.
 Let us now see if our predictions are compatible with the measured temperature power spectrum.
-The behavior of the primordial plasma is imprinted in the CMB photons, in fact, we observe the density fluctuations as anisotropies in the sky map tempearature.
+The behavior of the primordial plasma is imprinted in the CMB photons, in fact, we observe the density fluctuations as anisotropies in the sky map temperature.
 In order to relate the fluctuations at different scales and the deviations from the average temperature $2.7$ K on the CMB map, it is necessary to decompose the observed temperature deviation $T(\theta, \phi)$ into a set of orthonormal functions on the sky.
 The spherical harmonics $Y^{m} _{l} (\theta, \phi)$ are suitable for this.\\
 So if $T(\theta,\phi)$ is the temperature at position $(\theta,\phi)$ on the sky map,
@@ -413,7 +434,7 @@ The measured temperature power spectrum is shown in Figure(\ref{temp_pow_spect})
 %
 %
 For large scales, small $l<30$, the power spectrum is constant and oscillations do not take place.
-Therefore, the Sachs-Wolfe effect is dominant on large scales where the oscillations have too large wavelength to complete an entire oscillations before recombination and they experience mainly the gravitational redshift.\\
+Therefore, the Sachs-Wolfe effect is dominant on large scales where the oscillations have too large wavelength to complete an entire oscillations before recombination and, consequently, the power spectrum is almost constant.\\
 For large $l$ the acoustic oscillations are dominant.
 The first peak is at $l \approx 200$ approximately $1 ^o$ on the sky, it represents how the tiny variations in the fluid density gave rise to a sound wave which collapsed exactly at the time of recombination.
 The position of the peak tells us at which scale the first total compression of the primordial plasma happened.
@@ -421,9 +442,8 @@ The second peak is linked to those oscillations that compressed and expanded, an
 You might think that the rarefaction should be associated with the local minimum after the first peak, but this is not the case because the power spectrum is sensitive to the absolute value of the temperature oscillations.
 The third peak is related to the oscillations that collapsed expanded and re-collapsed, and so on for the higher peaks.\\
 Notice that as we consider higher and higher $l$, i.e. smaller scales, the damping effects become relevant, especially for  $l>10^{3}$.\\
-
-The four density parameters $\Omega$ encode the energy-matter content of the Universe and they determine the evolution of space-time through the Friedmann equations. 
-We want now to link the information contained in the measured fluctuations of the CMB to the density parameters through the observed power spectrum.\\
+The four density parameters $\Omega$ encode the energy-matter content of the Universe and they are constrained by the shape of the CMB power spectrum.
+Since the radiation density parameter can be precisely determined by the measurements of the CMB temperature, we analyze how the power spectrum changes if we vary the other  parameters $\Omega_{k 0}$, $\Omega_{\Lambda 0}$ and $\Omega_{m 0}_$.
 
 
 \subsection{Dark Energy and Curvature}
@@ -431,16 +451,20 @@ The cosmological constant $\Lambda$ was introduced in the Einstein's field equat
 It turns out from the measurements of the Hubble constant $H_0$ and distant supernovae that the Universe is not only expanding but accelerating.
 Therefore, from the Friedmann equations we know that the cosmological constant plays a crucial role in the expansion and in the future evolution of the Universe.
 This mysterious energy that leads to the expansion of the Univers is called Dark Energy.\\
-Form Figure(\ref{DE_curv} b) we can notice that the dark energy density $\Omega_{\Lambda0}$ plays a small role in the position of the peaks. 
+From Figure(\ref{DE_curv} b) we can notice that the dark energy density $\Omega_{\Lambda0}$ plays a small role in the position of the peaks. 
 In fact, the  cosmological constant produces a small change in the distance light can travel since recombination and this influences the scale at which we measure the peaks.\\
-The position of the peaks is instead particularly sensitive to the curvature of the Universe, as show in Figure(\ref{DE_curv}a).
+The position of the peaks is instead particularly sensitive to the curvature of the Universe, as shown in Figure(\ref{DE_curv}a).
 The curvature determines how angles are deformed.
-By measuring the position of the first peak we know the angle $\theta \sim 1/l$ of the oscillations.
-By multiplying this angle and the angular distance (specifically the angular distance) we obtain the size of the oscillations for Euclidean geometry $k =0$.
-Since the first peak represents the first complete compression of the photon-baryon fluid, we can compare the size of the oscillations obtained with $k=0$ with the value obtained by multiplying the sound speed of the fluid times the time of the collapse times the expansion factor.\\
-TO BE EXPLAINED DECENTLY\\
-	Substantially the curvature and the cosmological constant do not change the shape of the acoustic peaks but they only change shift their position on the power spectrum.
-	
+The position of the first peak is a crucial test for checking the curvature $k$ of the Universe.
+So, since the first peak represents the first complete compression of the photon-baryon fluid, we can obtain the size $S$ of the oscillations by multiplying the sound speed $c_s$ of the fluid times the time of the collapse $t_c$ times the expansion factor $a_r$: $S =c_s t_c a_r $.\\
+The size of the oscillations appear to us now at a certain angle $\theta \sim 1/l$ on the CMB sky map.
+The relation between the angle on the sky map and the size is dependent on the spatial curvature.
+So we can check if the curvature of the Universe reflect the estimated $S$.
+For instance, if the $k=0$ we can obtain the size $S$ of the oscillations by multiplying the angle $\theta \sim 1/l$ on the sky of the first peak times the angular distance $D$ to the CMB:
+$$
+\text{for } k=0 \rightarrow \qquad \theta D \mathrel{\stackon[1pt]{$=$}{$\scriptstyle?$}} c_s t_c a_r \qquad \leftarrow \text{k independent}
+$$
+
 
 
 % Given our current uncertainties about the physical density of the matter, the distance that sound can travel by recombination is currently uncertain, a fact related to the matter's effect on the age of the universe at recombination.  Likewise we have assumed that the physical density of the baryons  (Omegabh2) is fixed.  Baryons lower the speed of sound in the medium and hence also affect the distance sound can travel.  Luckily both of these quantities dramatically change the shape of the peaks as we shall see.  They will be measured once the higher peaks are detected and will no longer confuse the measurement of the curvature.   As it turns out, the sound horizon is not a standard ruler but rather a standardizeable ruler.
@@ -448,14 +472,14 @@ TO BE EXPLAINED DECENTLY\\
 \begin{center}
 \includegraphics[width=\textwidth]{curvature_de}
 \end{center}
-\caption{$\Omega_{tot} = 1-\Omega_{k0}$}
+\caption{$\Omega_{tot} = 1-\Omega_{k0}$ and $\Omega_{DE} = \Omega_{\Lambda 0}$. (Credit: \cite{huCosmicMicrowaveBackground2001})}
 \label{DE_curv}
 \end{figure}
 
 \subsection{Dark Matter and Baryons}
 The matter density parameter $\Omega_{m0}$ includes any form of non-relativistic matter that interacts gravitationally, so it includes both dark matter and baryonic matter.
 Baryonic matter couples to radiation through the electromagnetic interaction and it adds inertial mass to the oscillating photon-baryon fluid.
-What happens when you add mass to a spring and let it fall in the gravitational field of the Earth.  
+We have already seen what happens when you add mass to a spring and let it fall in the gravitational field of the Earth.  
 With more mass loading the spring, it falls further before pulled back by the spring. 
 On the other hand, it rebounds to the same position it started from. 
 Since odd numbered acoustic peaks are associated with how much the plasma compresses, they are enhanced by an increase in the amount of baryons.
@@ -465,7 +489,7 @@ More baryons would enhance the odd peaks and suppress the even ones as shown in 
 Increasing the mass of the spring would decrease the oscillations of the spring $\omega_k = \sqrt{k/m}$.
 By keeping the frequency of the oscillations constant as we increase the mass we have to increase $k$.
 Therefore the oscillations will occur at smaller scales $\lambda =2 \pi /k$ and the position of the peaks is pushed to slightly higher multipoles $l$ (Figure(\ref{DM_bary})).\\
-In addition baryons influence also damping effects.\\
+%In addition baryons influence also damping effects.\\
 Radiation pressure plays the role of the spring and it is the only relevant pressure that makes expand the fluid.
 As the matter density parameter $\Omega_{m0}$ decreases the acoustic peaks are enhanced, because the pressure easily fights against gravity and it causes the fluid to expand outward.
 Decreasing the matter density also affects the baryon loading since the dark matter potential wells go away leaving nothing for the baryons to fall into.
@@ -475,7 +499,7 @@ On the other hand, raising the dark matter density reduces the overall amplitude
 The third peak is linked to a cycle of compression rarefaction and again compression of the fluid.
 Higher is the dark matter density, stronger will be the potential well which compresses the fluid.
 Therefore, an high third peak (with respect to the first peak) is an indication of dark matter.
-In addition, having a third peak that is boosted to a height comparable to or exceeding the second peak is an indication that dark matter dominated the matter density in the plasma before recombination .
+In addition, having a third peak that is boosted to a height comparable to or exceeding the second peak is an indication that dark matter dominated the matter density in the plasma before recombination.
 
 
 
@@ -497,16 +521,20 @@ In addition, having a third peak that is boosted to a height comparable to or ex
 
 
 
-\begin{figure}
+\begin{figure}[h]
 \begin{center}
 \includegraphics[width=\textwidth]{baryon_m}
 \end{center}
-\caption{aa}
+\caption{(Credit: \cite{huCosmicMicrowaveBackground2001})}
 \label{DM_bary}
 \end{figure}
 
 
 \section{Conclusion}
+The Planck Collaboration estimated the density parameters with incredible precision:
+
+Substantially the curvature and the cosmological constant do not change the shape of the acoustic peaks but they only change shift their position on the power spectrum.
+	
 The many ways that baryons show up in the power spectrum imply that the power spectrum has many independent checks on the baryon density of the universe.  The baryon density is a quantity that the CMB can measure to exquisite precision.
 
 
