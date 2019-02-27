@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  26 FEB 2019 13:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  26 FEB 2019 21:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1762,14 +1762,14 @@ tifier (name{equation.4.9}) has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.303 
-      ] <baryonspring.jpg, id=151, 283.0575pt x 481.8pt>
+      ] <baryonspring.jpg, id=152, 283.0575pt x 481.8pt>
 File: baryonspring.jpg Graphic file (type jpg)
 
 <use baryonspring.jpg>
 Package pdftex.def Info: baryonspring.jpg used on input line 308.
 (pdftex.def)             Requested size: 141.5284pt x 240.8994pt.
  [8 <./baryonspring.jpg>]
-<planck2018.jpeg, id=160, 1150.2975pt x 778.91pt>
+<planck2018.jpeg, id=161, 1150.2975pt x 778.91pt>
 File: planck2018.jpeg Graphic file (type jpg)
  <use planck2018.jpeg>
 Package pdftex.def Info: planck2018.jpeg used on input line 409.
@@ -1784,41 +1784,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 426--428
 
  []
 
-<curvature_de.jpeg, id=171, 1202.4925pt x 651.43375pt>
+<curvature_de.jpeg, id=172, 1202.4925pt x 651.43375pt>
 File: curvature_de.jpeg Graphic file (type jpg)
  <use curvature_de.jpeg>
 Package pdftex.def Info: curvature_de.jpeg used on input line 450.
 (pdftex.def)             Requested size: 418.25368pt x 226.58379pt.
 
-
-Package natbib Warning: Citation `CMB dodelson Hu' on page 10 undefined on inpu
-t line 473.
-
-[10] <baryon_m.jpeg, id=181, 1246.6575pt x 647.41875pt>
+[10] <baryon_m.jpeg, id=183, 1246.6575pt x 647.41875pt>
 File: baryon_m.jpeg Graphic file (type jpg)
  <use baryon_m.jpeg>
 Package pdftex.def Info: baryon_m.jpeg used on input line 503.
 (pdftex.def)             Requested size: 418.25368pt x 217.20522pt.
 
-(./main.bbl
-Overfull \hbox (71.15303pt too wide) in paragraph at lines 8--11
-[]\OT1/cmr/m/n/10 Ryden[]IntroCosmo.pdf.  http://carina.fcaglp.unlp.edu.ar/extr
-agalactica/Bibliografia/Ryden[]IntroCosmo.pdf. 
+(./main.bbl [11 <./curvature_de.jpeg>]
+Underfull \hbox (badness 5119) in paragraph at lines 7--10
+[]\OT1/cmr/m/n/10 Formation of struc-ture in the uni-verse.  [][]$\OT1/cmtt/m/n
+/10 http : / / www . ita . uni-[]heidelberg . de /
  []
 
-[11 <./curvature_de.jpeg>])
 
-Package natbib Warning: There were undefined citations.
+Underfull \hbox (badness 7796) in paragraph at lines 26--29
+[]\OT1/cmr/m/n/10 Baumann.  Cos-mol-ogy.  [][]$\OT1/cmtt/m/n/10 http : / / www 
+. damtp . cam . ac . uk / user / db275 / Cosmology /
+ []
 
+[12 <./baryon_m.jpeg>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 518.
-[12 <./baryon_m.jpeg>]
+ [13]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 518.
- (./main.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+ (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 518.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 518.
 Package rerunfilecheck Info: File `main.out' has not changed.
@@ -1826,13 +1820,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 518.
  ) 
 Here is how much of TeX's memory you used:
- 14379 strings out of 493033
- 245424 string characters out of 6134139
- 319768 words of memory out of 5000000
- 17746 multiletter control sequences out of 15000+600000
+ 14430 strings out of 493033
+ 246991 string characters out of 6134139
+ 319958 words of memory out of 5000000
+ 17783 multiletter control sequences out of 15000+600000
  9537 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,19n,42p,10433b,440s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,19n,42p,10433b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -1850,10 +1844,10 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (12 pages, 1527897 bytes).
+Output written on main.pdf (13 pages, 1537634 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
- 214 compressed objects within 3 object streams
- 52 named destinations out of 1000 (max. 500000)
+ 291 PDF objects out of 1000 (max. 8388607)
+ 244 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

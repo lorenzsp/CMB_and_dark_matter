@@ -1,57 +1,59 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
-White space in argument---line 48 of file main.aux
- : \citation{CMB
- :               dodelson Hu}
-I'm skipping whatever remains of this command
 The style file: plain.bst
 Database file #1: dark_1.bib
-Warning--to sort, need author or key in LecturesPdf
-Warning--to sort, need author or key in RydenIntroCosmoPdf
+Warning--to sort, need author or key in WayneHu
+Warning--to sort, need author or key in huweb
+Warning--to sort, need author or key in ChapterPdf
 Warning--empty journal in bartelmannStandardModelCosmology
 Warning--empty year in bartelmannStandardModelCosmology
 Warning--empty journal in bucherPhysicsCosmicMicrowave2015
+Warning--empty journal in collaborationPlanck2015Results2015
 Warning--empty journal in garcia-bellidoAstrophysicsCosmology2000
-You've used 6 entries,
+Warning--empty journal in huWanderingBackgroundCMB1995
+Warning--empty journal in huCosmicMicrowaveBackground2001
+Warning--empty journal in keskitaloEffectMatterBaryon
+Warning--empty year in keskitaloEffectMatterBaryon
+You've used 19 entries,
             2118 wiz_defined-function locations,
-            528 strings with 4847 characters,
-and the built_in function-call counts, 1361 in all, are:
-= -- 128
-> -- 36
+            593 strings with 6755 characters,
+and the built_in function-call counts, 4137 in all, are:
+= -- 387
+> -- 133
 < -- 1
-+ -- 18
-- -- 10
-* -- 69
-:= -- 216
-add.period$ -- 16
-call.type$ -- 6
-change.case$ -- 23
++ -- 60
+- -- 38
+* -- 208
+:= -- 701
+add.period$ -- 52
+call.type$ -- 19
+change.case$ -- 75
 chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 63
-empty$ -- 130
-format.name$ -- 10
-if$ -- 293
+cite$ -- 31
+duplicate$ -- 182
+empty$ -- 387
+format.name$ -- 38
+if$ -- 867
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 4
-newline$ -- 31
-num.names$ -- 8
-pop$ -- 40
+int.to.str$ -- 19
+missing$ -- 14
+newline$ -- 93
+num.names$ -- 32
+pop$ -- 119
 preamble$ -- 1
-purify$ -- 17
+purify$ -- 57
 quote$ -- 0
-skip$ -- 52
+skip$ -- 145
 stack$ -- 0
-substring$ -- 59
-swap$ -- 10
+substring$ -- 144
+swap$ -- 17
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 24
-warning$ -- 6
-while$ -- 10
-width$ -- 7
-write$ -- 54
-(There was 1 error message)
+type$ -- 74
+warning$ -- 12
+while$ -- 35
+width$ -- 21
+write$ -- 174
+(There were 12 warnings)

@@ -1,32 +1,99 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{LecturesPdf}
-Lectures.pdf.
-\newblock http://www.damtp.cam.ac.uk/user/db275/Cosmology/Lectures.pdf.
+\bibitem{huweb}
+\url{http://background.uchicago.edu/~whu/intermediate/baryons2.html}.
 
-\bibitem{RydenIntroCosmoPdf}
-Ryden\_{{IntroCosmo}}.pdf.
+\bibitem{ChapterPdf}
+Formation of structure in the universe.
 \newblock
-  http://carina.fcaglp.unlp.edu.ar/extragalactica/Bibliografia/Ryden\_IntroCosmo.pdf.
+  \url{http://www.ita.uni-heidelberg.de/\textasciitilde{}dullemond/lectures/cosmology\_2011/Chapter\_5.pdf}.
+
+\bibitem{WayneHu}
+Wayne {{Hu}}.
+\newblock http://background.uchicago.edu/\textasciitilde{}whu/index.html.
+
+\bibitem{CosmologyPdf}
+Matthias Bartelmann.
+\newblock Cosmology.
+\newblock
+  \url{http://www.ita.uni-heidelberg.de/research/bartelmann/files/cosmology.pdf}.
 
 \bibitem{bartelmannStandardModelCosmology}
 Matthias Bartelmann.
 \newblock The {{Standard Model}} of {{Cosmology}}: {{$\Lambda$CDM}}.
-\newblock page 117.
+
+\bibitem{LecturesPdf}
+Baumann.
+\newblock Cosmology.
+\newblock \url{http://www.damtp.cam.ac.uk/user/db275/Cosmology/Lectures.pdf}.
 
 \bibitem{bucherPhysicsCosmicMicrowave2015}
 Martin Bucher.
 \newblock Physics of the cosmic microwave background anisotropy.
 \newblock January 2015.
 
+\bibitem{collaborationPlanck2015Results2015}
+Planck Collaboration.
+\newblock Planck 2015 results. {{XIII}}. {{Cosmological}} parameters.
+\newblock February 2015.
+
+\bibitem{planckcollaborationPlanck2018Results2018a}
+Planck Collaboration.
+\newblock Planck 2018 results. {{VI}}. {{Cosmological}} parameters.
+\newblock {\em arXiv:1807.06209 [astro-ph]}, July 2018.
+
+\bibitem{dodelsonModernCosmology2003}
+Scott Dodelson.
+\newblock {\em Modern {{Cosmology}}}.
+\newblock {Academic Press}, San Diego, Calif, 1 edition edition, March 2003.
+
 \bibitem{garcia-bellidoAstrophysicsCosmology2000}
 Juan {Garcia-Bellido}.
 \newblock Astrophysics and {{Cosmology}}.
 \newblock April 2000.
 
+\bibitem{huWanderingBackgroundCMB1995}
+Wayne Hu.
+\newblock Wandering in the {{Background}}: {{A CMB Explorer}}.
+\newblock August 1995.
+
+\bibitem{huCMBTemperaturePolarization2003}
+Wayne Hu.
+\newblock {{CMB}} temperature and polarization anisotropy fundamentals.
+\newblock {\em Annals of Physics}, 303(1):203--225, January 2003.
+
+\bibitem{huLectureNotesCMB2008}
+Wayne Hu.
+\newblock Lecture {{Notes}} on {{CMB Theory}}: {{From Nucleosynthesis}} to
+  {{Recombination}}.
+\newblock {\em arXiv:0802.3688 [astro-ph]}, February 2008.
+
+\bibitem{huCosmicMicrowaveBackground2001}
+Wayne Hu and Scott Dodelson.
+\newblock Cosmic {{Microwave Background Anisotropies}}.
+\newblock October 2001.
+
+\bibitem{keskitaloEffectMatterBaryon}
+Reijo Keskitalo.
+\newblock The {{Effect}} of {{Matter}} and {{Baryon Densities}} on the {{Cosmic
+  Microwave Background Anisotropy}}.
+\newblock page~66.
+
+\bibitem{padmanabhanDetectingDarkMatter2005}
+Nikhil Padmanabhan and Douglas~P. Finkbeiner.
+\newblock Detecting {{Dark Matter Annihilation}} with {{CMB Polarization}} :
+  {{Signatures}} and {{Experimental Prospects}}.
+\newblock {\em Physical Review D}, 72(2), July 2005.
+
 \bibitem{penziasMeasurementExcessAntenna1965}
 A.~A. Penzias and R.~W. Wilson.
 \newblock A {{Measurement}} of {{Excess Antenna Temperature}} at 4080 {{Mc}}/s.
 \newblock {\em The Astrophysical Journal}, 142:419--421, July 1965.
+
+\bibitem{RydenIntroCosmoPdf}
+Barbara Ryden.
+\newblock Introduction to cosmology.
+\newblock
+  \url{http://carina.fcaglp.unlp.edu.ar/extragalactica/Bibliografia/Ryden\_IntroCosmo.pdf}.
 
 \end{thebibliography}
